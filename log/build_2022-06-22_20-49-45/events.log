@@ -1,0 +1,480 @@
+[0.000000] (-) TimerEvent: {}
+[0.001502] (audio) JobQueued: {'identifier': 'audio', 'dependencies': OrderedDict()}
+[0.002214] (face_controller) JobQueued: {'identifier': 'face_controller', 'dependencies': OrderedDict()}
+[0.002369] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.004422] (unity_robotics_demo) JobQueued: {'identifier': 'unity_robotics_demo', 'dependencies': OrderedDict()}
+[0.004791] (unity_robotics_demo_msgs) JobQueued: {'identifier': 'unity_robotics_demo_msgs', 'dependencies': OrderedDict()}
+[0.004899] (utils) JobQueued: {'identifier': 'utils', 'dependencies': OrderedDict()}
+[0.005141] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.005246] (audio) JobStarted: {'identifier': 'audio'}
+[0.024579] (face_controller) JobStarted: {'identifier': 'face_controller'}
+[0.050240] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.072562] (unity_robotics_demo) JobStarted: {'identifier': 'unity_robotics_demo'}
+[0.097681] (unity_robotics_demo_msgs) JobStarted: {'identifier': 'unity_robotics_demo_msgs'}
+[0.100377] (-) TimerEvent: {}
+[0.120000] (utils) JobStarted: {'identifier': 'utils'}
+[0.146563] (vision) JobStarted: {'identifier': 'vision'}
+[0.200678] (-) TimerEvent: {}
+[0.301407] (-) TimerEvent: {}
+[0.401992] (-) TimerEvent: {}
+[0.502596] (-) TimerEvent: {}
+[0.603317] (-) TimerEvent: {}
+[0.704180] (-) TimerEvent: {}
+[0.804856] (-) TimerEvent: {}
+[0.905583] (-) TimerEvent: {}
+[1.006028] (-) TimerEvent: {}
+[1.106847] (-) TimerEvent: {}
+[1.207714] (-) TimerEvent: {}
+[1.308445] (-) TimerEvent: {}
+[1.409343] (-) TimerEvent: {}
+[1.510099] (-) TimerEvent: {}
+[1.611219] (-) TimerEvent: {}
+[1.712212] (-) TimerEvent: {}
+[1.812888] (-) TimerEvent: {}
+[1.913469] (-) TimerEvent: {}
+[2.015253] (-) TimerEvent: {}
+[2.057207] (unity_robotics_demo_msgs) JobProgress: {'identifier': 'unity_robotics_demo_msgs', 'progress': 'cmake'}
+[2.063135] (unity_robotics_demo_msgs) JobProgress: {'identifier': 'unity_robotics_demo_msgs', 'progress': 'build'}
+[2.067316] (unity_robotics_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dev_ws/build/unity_robotics_demo_msgs', '--', '-j12', '-l12'], 'cwd': '/home/dev_ws/build/unity_robotics_demo_msgs', 'env': OrderedDict([('HOSTNAME', '495df57d9744'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/dev_ws/install/unity_robotics_demo_msgs/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio'), ('PWD', '/home/dev_ws/build/unity_robotics_demo_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/home/dev_ws/install/vision/lib/python3.8/site-packages:/home/dev_ws/install/utils/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/dev_ws/install/face_controller/lib/python3.8/site-packages:/home/dev_ws/install/audio/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/dev_ws/install/unity_robotics_demo_msgs:/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio')]), 'shell': False}
+[2.115580] (-) TimerEvent: {}
+[2.216665] (-) TimerEvent: {}
+[2.317385] (-) TimerEvent: {}
+[2.418068] (-) TimerEvent: {}
+[2.518797] (-) TimerEvent: {}
+[2.619817] (-) TimerEvent: {}
+[2.721488] (-) TimerEvent: {}
+[2.822475] (-) TimerEvent: {}
+[2.923100] (-) TimerEvent: {}
+[3.023768] (-) TimerEvent: {}
+[3.108743] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[  1%] Built target unity_robotics_demo_msgs__cpp\n'}
+[3.110386] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 12%] Built target unity_robotics_demo_msgs__rosidl_generator_c\n'}
+[3.110711] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 24%] Built target unity_robotics_demo_msgs__rosidl_typesupport_cpp\n'}
+[3.111183] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 35%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.112799] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 47%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.113872] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 70%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[3.114241] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 70%] Built target unity_robotics_demo_msgs__rosidl_typesupport_c\n'}
+[3.114554] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 81%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.114855] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 81%] Built target unity_robotics_demo_msgs\n'}
+[3.118449] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 82%] Built target unity_robotics_demo_msgs__py\n'}
+[3.121939] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 93%] Built target unity_robotics_demo_msgs__python\n'}
+[3.122331] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 97%] Built target unity_robotics_demo_msgs__rosidl_typesupport_c__pyext\n'}
+[3.122794] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 97%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.123902] (-) TimerEvent: {}
+[3.125009] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[100%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.126844] (unity_robotics_demo_msgs) CommandEnded: {'returncode': 0}
+[3.224395] (-) TimerEvent: {}
+[3.325915] (-) TimerEvent: {}
+[3.426625] (-) TimerEvent: {}
+[3.527368] (-) TimerEvent: {}
+[3.627589] (unity_robotics_demo_msgs) JobProgress: {'identifier': 'unity_robotics_demo_msgs', 'progress': 'install'}
+[3.632800] (-) TimerEvent: {}
+[3.661998] (unity_robotics_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dev_ws/build/unity_robotics_demo_msgs'], 'cwd': '/home/dev_ws/build/unity_robotics_demo_msgs', 'env': OrderedDict([('HOSTNAME', '495df57d9744'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/dev_ws/install/unity_robotics_demo_msgs/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio'), ('PWD', '/home/dev_ws/build/unity_robotics_demo_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/home/dev_ws/install/vision/lib/python3.8/site-packages:/home/dev_ws/install/utils/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/dev_ws/install/face_controller/lib/python3.8/site-packages:/home/dev_ws/install/audio/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/dev_ws/install/unity_robotics_demo_msgs:/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio')]), 'shell': False}
+[3.695951] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.696943] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/unity_robotics_demo_msgs\n'}
+[3.698429] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs\n'}
+[3.699922] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv\n'}
+[3.701541] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/position_service.h\n'}
+[3.706251] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/object_pose_service.h\n'}
+[3.707608] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail\n'}
+[3.708448] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__struct.h\n'}
+[3.708998] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__type_support.h\n'}
+[3.709462] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__functions.c\n'}
+[3.709932] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__functions.h\n'}
+[3.710419] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__struct.h\n'}
+[3.710816] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__functions.h\n'}
+[3.711220] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__type_support.h\n'}
+[3.711573] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__functions.c\n'}
+[3.712024] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg\n'}
+[3.712395] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/targets_reached.h\n'}
+[3.712819] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/pos_eyelids.h\n'}
+[3.713133] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/audio.h\n'}
+[3.713428] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/pos_rot.h\n'}
+[3.713767] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.714398] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/joints_to_target.h\n'}
+[3.714807] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail\n'}
+[3.715534] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/audio__functions.c\n'}
+[3.716082] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__type_support.h\n'}
+[3.717645] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__type_support.h\n'}
+[3.720273] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/audio__struct.h\n'}
+[3.721125] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/targets_reached__functions.h\n'}
+[3.723102] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/joints_to_target__struct.h\n'}
+[3.723717] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/targets_reached__functions.c\n'}
+[3.724546] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__struct.h\n'}
+[3.725154] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__functions.c\n'}
+[3.726111] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_eyelids__type_support.h\n'}
+[3.727281] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__struct.h\n'}
+[3.728270] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_eyelids__functions.h\n'}
+[3.729157] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__functions.h\n'}
+[3.729925] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/audio__functions.h\n'}
+[3.730322] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/joints_to_target__functions.h\n'}
+[3.730873] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/targets_reached__struct.h\n'}
+[3.731163] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_eyelids__struct.h\n'}
+[3.731556] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/audio__type_support.h\n'}
+[3.731830] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/joints_to_target__type_support.h\n'}
+[3.732086] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/targets_reached__type_support.h\n'}
+[3.732595] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/joints_to_target__functions.c\n'}
+[3.732865] (-) TimerEvent: {}
+[3.733657] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__functions.c\n'}
+[3.734221] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__functions.h\n'}
+[3.734761] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_eyelids__functions.c\n'}
+[3.735381] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/unity_color.h\n'}
+[3.735866] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/library_path.sh\n'}
+[3.736257] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/library_path.dsv\n'}
+[3.737814] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_generator_c.so\n'}
+[3.739836] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs\n'}
+[3.741069] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv\n'}
+[3.742308] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail\n'}
+[3.743587] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__rosidl_typesupport_fastrtps_c.h\n'}
+[3.744500] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__rosidl_typesupport_fastrtps_c.h\n'}
+[3.745155] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg\n'}
+[3.745787] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.746335] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail\n'}
+[3.747522] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__rosidl_typesupport_fastrtps_c.h\n'}
+[3.748025] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_eyelids__rosidl_typesupport_fastrtps_c.h\n'}
+[3.748494] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/targets_reached__rosidl_typesupport_fastrtps_c.h\n'}
+[3.748922] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/joints_to_target__rosidl_typesupport_fastrtps_c.h\n'}
+[3.749460] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/audio__rosidl_typesupport_fastrtps_c.h\n'}
+[3.749977] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__rosidl_typesupport_fastrtps_c.h\n'}
+[3.750530] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.751467] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs\n'}
+[3.751951] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv\n'}
+[3.753008] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail\n'}
+[3.753803] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.755118] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.755968] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/dds_fastrtps\n'}
+[3.756676] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg\n'}
+[3.757205] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.757671] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail\n'}
+[3.758209] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.759359] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/dds_fastrtps\n'}
+[3.760250] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/joints_to_target__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.760913] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.761450] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/targets_reached__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.761837] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_eyelids__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.762223] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/audio__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.762570] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.762977] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs\n'}
+[3.763389] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv\n'}
+[3.763749] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail\n'}
+[3.764147] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__type_support.c\n'}
+[3.764580] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__rosidl_typesupport_introspection_c.h\n'}
+[3.764965] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__rosidl_typesupport_introspection_c.h\n'}
+[3.765442] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__type_support.c\n'}
+[3.765802] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg\n'}
+[3.766192] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.766658] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail\n'}
+[3.767284] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__rosidl_typesupport_introspection_c.h\n'}
+[3.767885] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_eyelids__rosidl_typesupport_introspection_c.h\n'}
+[3.768316] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__rosidl_typesupport_introspection_c.h\n'}
+[3.768772] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_eyelids__type_support.c\n'}
+[3.770104] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/audio__rosidl_typesupport_introspection_c.h\n'}
+[3.770529] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/joints_to_target__type_support.c\n'}
+[3.771255] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/joints_to_target__rosidl_typesupport_introspection_c.h\n'}
+[3.771923] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__type_support.c\n'}
+[3.774535] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/targets_reached__rosidl_typesupport_introspection_c.h\n'}
+[3.775937] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/audio__type_support.c\n'}
+[3.776665] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/targets_reached__type_support.c\n'}
+[3.777291] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__type_support.c\n'}
+[3.777822] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.778624] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_c.so\n'}
+[3.779277] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs\n'}
+[3.779753] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv\n'}
+[3.780203] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/position_service.hpp\n'}
+[3.780677] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail\n'}
+[3.781386] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__builder.hpp\n'}
+[3.782333] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__struct.hpp\n'}
+[3.782727] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__struct.hpp\n'}
+[3.783160] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__traits.hpp\n'}
+[3.783624] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__builder.hpp\n'}
+[3.784187] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__traits.hpp\n'}
+[3.784640] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/object_pose_service.hpp\n'}
+[3.785089] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg\n'}
+[3.785536] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/audio.hpp\n'}
+[3.785994] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/joints_to_target.hpp\n'}
+[3.786338] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/targets_reached.hpp\n'}
+[3.786625] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/pos_rot.hpp\n'}
+[3.786953] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail\n'}
+[3.787726] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_eyelids__traits.hpp\n'}
+[3.790325] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/joints_to_target__builder.hpp\n'}
+[3.790734] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/targets_reached__traits.hpp\n'}
+[3.791209] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/targets_reached__struct.hpp\n'}
+[3.792695] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__struct.hpp\n'}
+[3.794167] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/audio__builder.hpp\n'}
+[3.795609] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__traits.hpp\n'}
+[3.798574] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/targets_reached__builder.hpp\n'}
+[3.799381] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_eyelids__struct.hpp\n'}
+[3.800012] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__traits.hpp\n'}
+[3.800720] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/audio__struct.hpp\n'}
+[3.801165] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__builder.hpp\n'}
+[3.801760] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_eyelids__builder.hpp\n'}
+[3.802251] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__struct.hpp\n'}
+[3.802805] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__builder.hpp\n'}
+[3.803244] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/audio__traits.hpp\n'}
+[3.803779] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/joints_to_target__traits.hpp\n'}
+[3.804165] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/joints_to_target__struct.hpp\n'}
+[3.804531] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/pos_eyelids.hpp\n'}
+[3.804772] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/unity_color.hpp\n'}
+[3.805101] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs\n'}
+[3.805360] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv\n'}
+[3.805723] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail\n'}
+[3.806074] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__type_support.cpp\n'}
+[3.806460] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__type_support.cpp\n'}
+[3.806847] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/object_pose_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.807315] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/srv/detail/position_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.808032] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg\n'}
+[3.808351] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail\n'}
+[3.808704] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__type_support.cpp\n'}
+[3.809098] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/targets_reached__type_support.cpp\n'}
+[3.809491] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_eyelids__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.809992] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/targets_reached__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.810831] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__type_support.cpp\n'}
+[3.811395] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/joints_to_target__type_support.cpp\n'}
+[3.812652] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/joints_to_target__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.814521] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/audio__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.815899] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_rot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.816569] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/pos_eyelids__type_support.cpp\n'}
+[3.818228] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/unity_color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.818893] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/msg/detail/audio__type_support.cpp\n'}
+[3.819438] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.819970] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_cpp.so\n'}
+[3.820461] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/pythonpath.sh\n'}
+[3.820956] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/pythonpath.dsv\n'}
+[3.821328] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/__init__.py\n'}
+[3.833103] (-) TimerEvent: {}
+[3.934028] (-) TimerEvent: {}
+[4.034929] (-) TimerEvent: {}
+[4.051322] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg\n'}
+[4.053716] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_targets_reached_s.c\n'}
+[4.055139] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_unity_color.py\n'}
+[4.055557] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_targets_reached.py\n'}
+[4.055907] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_audio_s.c\n'}
+[4.056483] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_joints_to_target_s.c\n'}
+[4.056889] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_joints_to_target.py\n'}
+[4.057303] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_audio.py\n'}
+[4.057693] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_pos_eyelids_s.c\n'}
+[4.059763] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_pos_eyelids.py\n'}
+[4.061037] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_pos_rot.py\n'}
+[4.061452] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_unity_color_s.c\n'}
+[4.061827] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/_pos_rot_s.c\n'}
+[4.062166] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/msg/__init__.py\n'}
+[4.062650] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/srv\n'}
+[4.063033] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/srv/_position_service.py\n'}
+[4.063354] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/srv/_object_pose_service_s.c\n'}
+[4.064077] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/srv/_position_service_s.c\n'}
+[4.064682] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/srv/__init__.py\n'}
+[4.065003] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/srv/_object_pose_service.py\n'}
+[4.065514] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.065960] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.071684] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.074288] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__python.so\n'}
+[4.075883] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/TargetsReached.idl\n'}
+[4.077143] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/Audio.idl\n'}
+[4.077759] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/JointsToTarget.idl\n'}
+[4.078118] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/PosEyelids.idl\n'}
+[4.078619] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/PosRot.idl\n'}
+[4.079112] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/UnityColor.idl\n'}
+[4.086733] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/PositionService.idl\n'}
+[4.087256] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/ObjectPoseService.idl\n'}
+[4.087748] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/TargetsReached.msg\n'}
+[4.088181] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/Audio.msg\n'}
+[4.088736] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/JointsToTarget.msg\n'}
+[4.089318] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/PosEyelids.msg\n'}
+[4.089908] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/PosRot.msg\n'}
+[4.090519] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/UnityColor.msg\n'}
+[4.090920] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/PositionService.srv\n'}
+[4.091408] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/PositionService_Request.msg\n'}
+[4.091783] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/PositionService_Response.msg\n'}
+[4.092209] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/ObjectPoseService.srv\n'}
+[4.092597] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/ObjectPoseService_Request.msg\n'}
+[4.092997] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/ObjectPoseService_Response.msg\n'}
+[4.093488] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/ament_index/resource_index/package_run_dependencies/unity_robotics_demo_msgs\n'}
+[4.093894] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/ament_index/resource_index/parent_prefix_path/unity_robotics_demo_msgs\n'}
+[4.095236] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/ament_prefix_path.sh\n'}
+[4.095823] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/ament_prefix_path.dsv\n'}
+[4.097479] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/path.sh\n'}
+[4.102825] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/path.dsv\n'}
+[4.105999] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/local_setup.bash\n'}
+[4.107502] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/local_setup.sh\n'}
+[4.125472] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/local_setup.zsh\n'}
+[4.130758] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/local_setup.dsv\n'}
+[4.131311] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.dsv\n'}
+[4.131715] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/ament_index/resource_index/packages/unity_robotics_demo_msgs\n'}
+[4.132086] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_generator_cExport.cmake\n'}
+[4.132459] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.132765] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.133199] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.133768] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.134112] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.150810] (-) TimerEvent: {}
+[4.154202] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.155552] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.156217] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.157430] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.158348] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.158943] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.159787] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.164992] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.166058] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.166423] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.167556] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.169265] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.171556] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgsConfig.cmake\n'}
+[4.172729] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgsConfig-version.cmake\n'}
+[4.173538] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.xml\n'}
+[4.174383] (unity_robotics_demo_msgs) CommandEnded: {'returncode': 0}
+[4.251190] (-) TimerEvent: {}
+[4.352396] (-) TimerEvent: {}
+[4.454129] (-) TimerEvent: {}
+[4.555773] (-) TimerEvent: {}
+[4.655562] (audio) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/audio', 'build', '--build-base', '/home/dev_ws/build/audio/build', 'install', '--prefix', '/home/dev_ws/install/audio', '--record', '/home/dev_ws/build/audio/install.log', '--single-version-externally-managed'], 'cwd': '/home/dev_ws/src/audio', 'env': {'HOSTNAME': '495df57d9744', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/dev_ws/install/unity_robotics_demo_msgs/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/dev_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio', 'PWD': '/home/dev_ws/build/audio', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/dev_ws/install/audio/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/dev_ws/install/vision/lib/python3.8/site-packages:/home/dev_ws/install/utils/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/dev_ws/install/face_controller/lib/python3.8/site-packages:/home/dev_ws/install/audio/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dev_ws/install/unity_robotics_demo_msgs'}, 'shell': False}
+[4.675642] (-) TimerEvent: {}
+[4.676554] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ros_tcp_endpoint', 'build', '--build-base', '/home/dev_ws/build/ros_tcp_endpoint/build', 'install', '--prefix', '/home/dev_ws/install/ros_tcp_endpoint', '--record', '/home/dev_ws/build/ros_tcp_endpoint/install.log', '--single-version-externally-managed'], 'cwd': '/home/dev_ws/src/ros_tcp_endpoint', 'env': {'HOSTNAME': '495df57d9744', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/dev_ws/install/unity_robotics_demo_msgs/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/dev_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio', 'PWD': '/home/dev_ws/build/ros_tcp_endpoint', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/dev_ws/install/vision/lib/python3.8/site-packages:/home/dev_ws/install/utils/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/dev_ws/install/face_controller/lib/python3.8/site-packages:/home/dev_ws/install/audio/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dev_ws/install/unity_robotics_demo_msgs'}, 'shell': False}
+[4.735540] (face_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/face_controller', 'build', '--build-base', '/home/dev_ws/build/face_controller/build', 'install', '--prefix', '/home/dev_ws/install/face_controller', '--record', '/home/dev_ws/build/face_controller/install.log', '--single-version-externally-managed'], 'cwd': '/home/dev_ws/src/face_controller', 'env': {'HOSTNAME': '495df57d9744', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/dev_ws/install/unity_robotics_demo_msgs/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/dev_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio', 'PWD': '/home/dev_ws/build/face_controller', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/dev_ws/install/face_controller/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/dev_ws/install/vision/lib/python3.8/site-packages:/home/dev_ws/install/utils/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/dev_ws/install/face_controller/lib/python3.8/site-packages:/home/dev_ws/install/audio/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dev_ws/install/unity_robotics_demo_msgs'}, 'shell': False}
+[4.757641] (vision) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/vision', 'build', '--build-base', '/home/dev_ws/build/vision/build', 'install', '--prefix', '/home/dev_ws/install/vision', '--record', '/home/dev_ws/build/vision/install.log', '--single-version-externally-managed'], 'cwd': '/home/dev_ws/src/vision', 'env': {'HOSTNAME': '495df57d9744', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/dev_ws/install/unity_robotics_demo_msgs/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/dev_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio', 'PWD': '/home/dev_ws/build/vision', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/dev_ws/install/vision/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/dev_ws/install/vision/lib/python3.8/site-packages:/home/dev_ws/install/utils/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/dev_ws/install/face_controller/lib/python3.8/site-packages:/home/dev_ws/install/audio/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dev_ws/install/unity_robotics_demo_msgs'}, 'shell': False}
+[4.790473] (-) TimerEvent: {}
+[4.791482] (utils) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/utils', 'build', '--build-base', '/home/dev_ws/build/utils/build', 'install', '--prefix', '/home/dev_ws/install/utils', '--record', '/home/dev_ws/build/utils/install.log', '--single-version-externally-managed'], 'cwd': '/home/dev_ws/src/utils', 'env': {'HOSTNAME': '495df57d9744', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/dev_ws/install/unity_robotics_demo_msgs/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/dev_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio', 'PWD': '/home/dev_ws/build/utils', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/dev_ws/install/utils/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/dev_ws/install/vision/lib/python3.8/site-packages:/home/dev_ws/install/utils/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/dev_ws/install/face_controller/lib/python3.8/site-packages:/home/dev_ws/install/audio/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dev_ws/install/unity_robotics_demo_msgs'}, 'shell': False}
+[4.809783] (unity_robotics_demo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/unity_robotics_demo', 'build', '--build-base', '/home/dev_ws/build/unity_robotics_demo/build', 'install', '--prefix', '/home/dev_ws/install/unity_robotics_demo', '--record', '/home/dev_ws/build/unity_robotics_demo/install.log', '--single-version-externally-managed'], 'cwd': '/home/dev_ws/src/unity_robotics_demo', 'env': {'HOSTNAME': '495df57d9744', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/dev_ws/install/unity_robotics_demo_msgs/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/dev_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio', 'PWD': '/home/dev_ws/build/unity_robotics_demo', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/dev_ws/install/vision/lib/python3.8/site-packages:/home/dev_ws/install/utils/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/dev_ws/install/face_controller/lib/python3.8/site-packages:/home/dev_ws/install/audio/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dev_ws/install/unity_robotics_demo_msgs'}, 'shell': False}
+[4.895406] (-) TimerEvent: {}
+[4.939879] (unity_robotics_demo_msgs) JobEnded: {'identifier': 'unity_robotics_demo_msgs', 'rc': 0}
+[4.995608] (-) TimerEvent: {}
+[5.097035] (-) TimerEvent: {}
+[5.197678] (-) TimerEvent: {}
+[5.298385] (-) TimerEvent: {}
+[5.383801] (audio) StdoutLine: {'line': b'running egg_info\n'}
+[5.385616] (audio) StdoutLine: {'line': b'writing ../../build/audio/audio.egg-info/PKG-INFO\n'}
+[5.386420] (audio) StdoutLine: {'line': b'writing dependency_links to ../../build/audio/audio.egg-info/dependency_links.txt\n'}
+[5.389786] (audio) StdoutLine: {'line': b'writing entry points to ../../build/audio/audio.egg-info/entry_points.txt\n'}
+[5.390791] (audio) StdoutLine: {'line': b'writing requirements to ../../build/audio/audio.egg-info/requires.txt\n'}
+[5.391821] (audio) StdoutLine: {'line': b'writing top-level names to ../../build/audio/audio.egg-info/top_level.txt\n'}
+[5.392344] (ros_tcp_endpoint) StdoutLine: {'line': b'running egg_info\n'}
+[5.395427] (ros_tcp_endpoint) StdoutLine: {'line': b'writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO\n'}
+[5.396159] (ros_tcp_endpoint) StdoutLine: {'line': b'writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt\n'}
+[5.396799] (ros_tcp_endpoint) StdoutLine: {'line': b'writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt\n'}
+[5.397568] (ros_tcp_endpoint) StdoutLine: {'line': b'writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt\n'}
+[5.398011] (ros_tcp_endpoint) StdoutLine: {'line': b'writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt\n'}
+[5.398395] (-) TimerEvent: {}
+[5.435865] (face_controller) StdoutLine: {'line': b'running egg_info\n'}
+[5.437588] (face_controller) StdoutLine: {'line': b'writing ../../build/face_controller/face_controller.egg-info/PKG-INFO\n'}
+[5.438705] (face_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/face_controller/face_controller.egg-info/dependency_links.txt\n'}
+[5.439442] (face_controller) StdoutLine: {'line': b'writing entry points to ../../build/face_controller/face_controller.egg-info/entry_points.txt\n'}
+[5.440181] (face_controller) StdoutLine: {'line': b'writing requirements to ../../build/face_controller/face_controller.egg-info/requires.txt\n'}
+[5.440809] (face_controller) StdoutLine: {'line': b'writing top-level names to ../../build/face_controller/face_controller.egg-info/top_level.txt\n'}
+[5.460240] (vision) StdoutLine: {'line': b'running egg_info\n'}
+[5.462290] (vision) StdoutLine: {'line': b'writing ../../build/vision/vision.egg-info/PKG-INFO\n'}
+[5.463474] (vision) StdoutLine: {'line': b'writing dependency_links to ../../build/vision/vision.egg-info/dependency_links.txt\n'}
+[5.464437] (vision) StdoutLine: {'line': b'writing entry points to ../../build/vision/vision.egg-info/entry_points.txt\n'}
+[5.466107] (vision) StdoutLine: {'line': b'writing requirements to ../../build/vision/vision.egg-info/requires.txt\n'}
+[5.467169] (vision) StdoutLine: {'line': b'writing top-level names to ../../build/vision/vision.egg-info/top_level.txt\n'}
+[5.476863] (utils) StdoutLine: {'line': b'running egg_info\n'}
+[5.478526] (utils) StdoutLine: {'line': b'writing ../../build/utils/utils.egg-info/PKG-INFO\n'}
+[5.479552] (utils) StdoutLine: {'line': b'writing dependency_links to ../../build/utils/utils.egg-info/dependency_links.txt\n'}
+[5.480354] (utils) StdoutLine: {'line': b'writing entry points to ../../build/utils/utils.egg-info/entry_points.txt\n'}
+[5.481251] (utils) StdoutLine: {'line': b'writing requirements to ../../build/utils/utils.egg-info/requires.txt\n'}
+[5.482254] (utils) StdoutLine: {'line': b'writing top-level names to ../../build/utils/utils.egg-info/top_level.txt\n'}
+[5.498630] (-) TimerEvent: {}
+[5.511961] (unity_robotics_demo) StdoutLine: {'line': b'running egg_info\n'}
+[5.514729] (unity_robotics_demo) StdoutLine: {'line': b'writing ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/PKG-INFO\n'}
+[5.515776] (unity_robotics_demo) StdoutLine: {'line': b'writing dependency_links to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/dependency_links.txt\n'}
+[5.516522] (unity_robotics_demo) StdoutLine: {'line': b'writing entry points to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/entry_points.txt\n'}
+[5.517451] (unity_robotics_demo) StdoutLine: {'line': b'writing requirements to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/requires.txt\n'}
+[5.517919] (unity_robotics_demo) StdoutLine: {'line': b'writing top-level names to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/top_level.txt\n'}
+[5.528204] (audio) StdoutLine: {'line': b"reading manifest file '../../build/audio/audio.egg-info/SOURCES.txt'\n"}
+[5.531541] (audio) StdoutLine: {'line': b"writing manifest file '../../build/audio/audio.egg-info/SOURCES.txt'\n"}
+[5.532603] (audio) StdoutLine: {'line': b'running build\n'}
+[5.533101] (audio) StdoutLine: {'line': b'running build_py\n'}
+[5.533939] (audio) StdoutLine: {'line': b'running install\n'}
+[5.537173] (audio) StdoutLine: {'line': b'running install_lib\n'}
+[5.541200] (ros_tcp_endpoint) StdoutLine: {'line': b"reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[5.547323] (audio) StdoutLine: {'line': b'running install_data\n'}
+[5.548799] (audio) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.550164] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[5.550990] (ros_tcp_endpoint) StdoutLine: {'line': b'running build\n'}
+[5.551451] (ros_tcp_endpoint) StdoutLine: {'line': b'running build_py\n'}
+[5.553844] (ros_tcp_endpoint) StdoutLine: {'line': b'running install\n'}
+[5.554551] (audio) StdoutLine: {'line': b"removing '/home/dev_ws/install/audio/lib/python3.8/site-packages/audio-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.556038] (audio) StdoutLine: {'line': b'Copying ../../build/audio/audio.egg-info to /home/dev_ws/install/audio/lib/python3.8/site-packages/audio-0.0.0-py3.8.egg-info\n'}
+[5.556791] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_lib\n'}
+[5.562806] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_data\n'}
+[5.563426] (audio) StdoutLine: {'line': b'running install_scripts\n'}
+[5.565027] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.570776] (ros_tcp_endpoint) StdoutLine: {'line': b"removing '/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info' (and everything under it)\n"}
+[5.572678] (ros_tcp_endpoint) StdoutLine: {'line': b'Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info\n'}
+[5.578480] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_scripts\n'}
+[5.598813] (-) TimerEvent: {}
+[5.599698] (face_controller) StdoutLine: {'line': b"reading manifest file '../../build/face_controller/face_controller.egg-info/SOURCES.txt'\n"}
+[5.602660] (face_controller) StdoutLine: {'line': b"writing manifest file '../../build/face_controller/face_controller.egg-info/SOURCES.txt'\n"}
+[5.603574] (face_controller) StdoutLine: {'line': b'running build\n'}
+[5.604075] (face_controller) StdoutLine: {'line': b'running build_py\n'}
+[5.604690] (face_controller) StdoutLine: {'line': b'running install\n'}
+[5.607566] (face_controller) StdoutLine: {'line': b'running install_lib\n'}
+[5.610766] (vision) StdoutLine: {'line': b"reading manifest file '../../build/vision/vision.egg-info/SOURCES.txt'\n"}
+[5.613791] (face_controller) StdoutLine: {'line': b'running install_data\n'}
+[5.615374] (vision) StdoutLine: {'line': b"writing manifest file '../../build/vision/vision.egg-info/SOURCES.txt'\n"}
+[5.616175] (vision) StdoutLine: {'line': b'running build\n'}
+[5.616944] (vision) StdoutLine: {'line': b'running build_py\n'}
+[5.618717] (vision) StdoutLine: {'line': b'copying vision/color_detector.py -> /home/dev_ws/build/vision/build/lib/vision\n'}
+[5.619276] (face_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.619993] (vision) StdoutLine: {'line': b'running install\n'}
+[5.621414] (vision) StdoutLine: {'line': b'running install_lib\n'}
+[5.622919] (face_controller) StdoutLine: {'line': b"removing '/home/dev_ws/install/face_controller/lib/python3.8/site-packages/face_controller-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.623955] (vision) StdoutLine: {'line': b'copying /home/dev_ws/build/vision/build/lib/vision/color_detector.py -> /home/dev_ws/install/vision/lib/python3.8/site-packages/vision\n'}
+[5.624886] (face_controller) StdoutLine: {'line': b'Copying ../../build/face_controller/face_controller.egg-info to /home/dev_ws/install/face_controller/lib/python3.8/site-packages/face_controller-0.0.0-py3.8.egg-info\n'}
+[5.626163] (vision) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/vision/lib/python3.8/site-packages/vision/color_detector.py to color_detector.cpython-38.pyc\n'}
+[5.629058] (face_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[5.631730] (audio) StdoutLine: {'line': b'Installing text_to_speech script to /home/dev_ws/install/audio/lib/audio\n'}
+[5.632310] (vision) StdoutLine: {'line': b'running install_data\n'}
+[5.632949] (audio) StdoutLine: {'line': b"writing list of installed files to '/home/dev_ws/build/audio/install.log'\n"}
+[5.633689] (vision) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.635158] (utils) StdoutLine: {'line': b"reading manifest file '../../build/utils/utils.egg-info/SOURCES.txt'\n"}
+[5.640419] (utils) StdoutLine: {'line': b"writing manifest file '../../build/utils/utils.egg-info/SOURCES.txt'\n"}
+[5.641742] (utils) StdoutLine: {'line': b'running build\n'}
+[5.642357] (utils) StdoutLine: {'line': b'running build_py\n'}
+[5.643174] (vision) StdoutLine: {'line': b"removing '/home/dev_ws/install/vision/lib/python3.8/site-packages/vision-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.643585] (utils) StdoutLine: {'line': b'running install\n'}
+[5.644256] (vision) StdoutLine: {'line': b'Copying ../../build/vision/vision.egg-info to /home/dev_ws/install/vision/lib/python3.8/site-packages/vision-0.0.0-py3.8.egg-info\n'}
+[5.646879] (utils) StdoutLine: {'line': b'running install_lib\n'}
+[5.648560] (ros_tcp_endpoint) StdoutLine: {'line': b'Installing default_server_endpoint script to /home/dev_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint\n'}
+[5.651154] (vision) StdoutLine: {'line': b'running install_scripts\n'}
+[5.652732] (ros_tcp_endpoint) StdoutLine: {'line': b"writing list of installed files to '/home/dev_ws/build/ros_tcp_endpoint/install.log'\n"}
+[5.654133] (utils) StdoutLine: {'line': b'running install_data\n'}
+[5.657606] (utils) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.663418] (utils) StdoutLine: {'line': b"removing '/home/dev_ws/install/utils/lib/python3.8/site-packages/utils-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.664784] (utils) StdoutLine: {'line': b'Copying ../../build/utils/utils.egg-info to /home/dev_ws/install/utils/lib/python3.8/site-packages/utils-0.0.0-py3.8.egg-info\n'}
+[5.669749] (utils) StdoutLine: {'line': b'running install_scripts\n'}
+[5.697155] (unity_robotics_demo) StdoutLine: {'line': b"reading manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'\n"}
+[5.699280] (-) TimerEvent: {}
+[5.706214] (unity_robotics_demo) StdoutLine: {'line': b"writing manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'\n"}
+[5.707486] (unity_robotics_demo) StdoutLine: {'line': b'running build\n'}
+[5.708135] (unity_robotics_demo) StdoutLine: {'line': b'running build_py\n'}
+[5.708873] (unity_robotics_demo) StdoutLine: {'line': b'running install\n'}
+[5.711641] (face_controller) StdoutLine: {'line': b'Installing facial_expression script to /home/dev_ws/install/face_controller/lib/face_controller\n'}
+[5.712315] (unity_robotics_demo) StdoutLine: {'line': b'running install_lib\n'}
+[5.713928] (face_controller) StdoutLine: {'line': b"writing list of installed files to '/home/dev_ws/build/face_controller/install.log'\n"}
+[5.717812] (unity_robotics_demo) StdoutLine: {'line': b'running install_data\n'}
+[5.720054] (unity_robotics_demo) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.728223] (unity_robotics_demo) StdoutLine: {'line': b"removing '/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo-0.0.1-py3.8.egg-info' (and everything under it)\n"}
+[5.729686] (unity_robotics_demo) StdoutLine: {'line': b'Copying ../../build/unity_robotics_demo/unity_robotics_demo.egg-info to /home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo-0.0.1-py3.8.egg-info\n'}
+[5.734584] (vision) StdoutLine: {'line': b'Installing color_detector script to /home/dev_ws/install/vision/lib/vision\n'}
+[5.735793] (unity_robotics_demo) StdoutLine: {'line': b'running install_scripts\n'}
+[5.737510] (vision) StdoutLine: {'line': b"writing list of installed files to '/home/dev_ws/build/vision/install.log'\n"}
+[5.749946] (audio) CommandEnded: {'returncode': 0}
+[5.756279] (utils) StdoutLine: {'line': b'Installing utils script to /home/dev_ws/install/utils/lib/utils\n'}
+[5.760348] (utils) StdoutLine: {'line': b"writing list of installed files to '/home/dev_ws/build/utils/install.log'\n"}
+[5.800546] (-) TimerEvent: {}
+[5.803582] (audio) JobEnded: {'identifier': 'audio', 'rc': 0}
+[5.815153] (ros_tcp_endpoint) CommandEnded: {'returncode': 0}
+[5.842074] (unity_robotics_demo) StdoutLine: {'line': b'Installing color_publisher script to /home/dev_ws/install/unity_robotics_demo/lib/unity_robotics_demo\n'}
+[5.859265] (unity_robotics_demo) StdoutLine: {'line': b'Installing position_service script to /home/dev_ws/install/unity_robotics_demo/lib/unity_robotics_demo\n'}
+[5.860296] (unity_robotics_demo) StdoutLine: {'line': b"writing list of installed files to '/home/dev_ws/build/unity_robotics_demo/install.log'\n"}
+[5.870966] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 0}
+[5.881002] (vision) CommandEnded: {'returncode': 0}
+[5.901255] (-) TimerEvent: {}
+[5.919651] (vision) JobEnded: {'identifier': 'vision', 'rc': 0}
+[5.933925] (face_controller) CommandEnded: {'returncode': 0}
+[5.982206] (face_controller) JobEnded: {'identifier': 'face_controller', 'rc': 0}
+[5.993536] (utils) CommandEnded: {'returncode': 0}
+[6.002355] (-) TimerEvent: {}
+[6.026257] (utils) JobEnded: {'identifier': 'utils', 'rc': 0}
+[6.035287] (unity_robotics_demo) CommandEnded: {'returncode': 0}
+[6.070829] (unity_robotics_demo) JobEnded: {'identifier': 'unity_robotics_demo', 'rc': 0}
+[6.075863] (-) EventReactorShutdown: {}

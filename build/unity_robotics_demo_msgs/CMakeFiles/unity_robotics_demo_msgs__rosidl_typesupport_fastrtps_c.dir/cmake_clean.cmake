@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/audio__type_support_c.cpp.o"
+  "CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/joints_to_target__type_support_c.cpp.o"
+  "CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/pos_eyelids__type_support_c.cpp.o"
+  "CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/pos_rot__type_support_c.cpp.o"
+  "CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/targets_reached__type_support_c.cpp.o"
+  "CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/unity_color__type_support_c.cpp.o"
+  "CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/srv/detail/object_pose_service__type_support_c.cpp.o"
+  "CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/srv/detail/position_service__type_support_c.cpp.o"
+  "libunity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.pdb"
+  "libunity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/audio__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/audio__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/joints_to_target__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/joints_to_target__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/pos_eyelids__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/pos_eyelids__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/pos_rot__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/pos_rot__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/targets_reached__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/targets_reached__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/unity_color__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/msg/detail/unity_color__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/srv/detail/object_pose_service__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/srv/detail/object_pose_service__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/srv/detail/position_service__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/unity_robotics_demo_msgs/srv/detail/position_service__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

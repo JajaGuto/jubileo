@@ -1,0 +1,2 @@
+bool reached
+string joint

@@ -1,0 +1,529 @@
+[0.345s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.345s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f913cc429d0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f913cc429d0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f913cc42fa0>)
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.402s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.404s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.405s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dev_ws'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rm) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rm) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rm) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rm) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(rm) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm) by extension 'ros'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm) by extensions ['cmake', 'python']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm) by extension 'cmake'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(rm) by extension 'python'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(rm) by extensions ['python_setup_py']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(rm) by extension 'python_setup_py'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package 'src/audio' with type 'ros.ament_python' and name 'audio'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_controller) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_controller) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_controller) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_controller) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_controller) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_controller) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_controller) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_controller) by extension 'ros'
+[0.452s] DEBUG:colcon.colcon_core.package_identification:Package 'src/face_controller' with type 'ros.ament_python' and name 'face_controller'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extension 'ros'
+[0.456s] DEBUG:colcon.colcon_core.package_identification:Package 'src/manipulation' with type 'ros.ament_python' and name 'manipulation'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extension 'ros'
+[0.458s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tcp_endpoint' with type 'ros.ament_python' and name 'ros_tcp_endpoint'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'ros'
+[0.461s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unity_robotics_demo' with type 'ros.ament_python' and name 'unity_robotics_demo'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'colcon_pkg'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'ros'
+[0.464s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unity_robotics_demo_msgs' with type 'ros.ament_cmake' and name 'unity_robotics_demo_msgs'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['ros']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'ros'
+[0.467s] DEBUG:colcon.colcon_core.package_identification:Package 'src/utils' with type 'ros.ament_python' and name 'utils'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'ignore_ament_install'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['colcon_pkg']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'colcon_pkg'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['colcon_meta']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'ros'
+[0.470s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision' with type 'ros.ament_python' and name 'vision'
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'audio' build argument 'cmake_args' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'audio' build argument 'cmake_target' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'audio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'audio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'audio' build argument 'cmake_clean_first' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'audio' build argument 'cmake_force_configure' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'audio' build argument 'ament_cmake_args' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'audio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'audio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.514s] DEBUG:colcon.colcon_core.verb:Building package 'audio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dev_ws/build/audio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dev_ws/install/audio', 'merge_install': False, 'path': '/home/dev_ws/src/audio', 'symlink_install': False, 'test_result_base': None}
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'face_controller' build argument 'cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'face_controller' build argument 'cmake_target' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'face_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'face_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'face_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'face_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'face_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'face_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'face_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.517s] DEBUG:colcon.colcon_core.verb:Building package 'face_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dev_ws/build/face_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dev_ws/install/face_controller', 'merge_install': False, 'path': '/home/dev_ws/src/face_controller', 'symlink_install': False, 'test_result_base': None}
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'cmake_target' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.520s] DEBUG:colcon.colcon_core.verb:Building package 'manipulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dev_ws/build/manipulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dev_ws/install/manipulation', 'merge_install': False, 'path': '/home/dev_ws/src/manipulation', 'symlink_install': False, 'test_result_base': None}
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.522s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dev_ws/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dev_ws/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/home/dev_ws/src/ros_tcp_endpoint', 'symlink_install': False, 'test_result_base': None}
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_target' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.524s] DEBUG:colcon.colcon_core.verb:Building package 'unity_robotics_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dev_ws/build/unity_robotics_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dev_ws/install/unity_robotics_demo', 'merge_install': False, 'path': '/home/dev_ws/src/unity_robotics_demo', 'symlink_install': False, 'test_result_base': None}
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.527s] DEBUG:colcon.colcon_core.verb:Building package 'unity_robotics_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dev_ws/build/unity_robotics_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dev_ws/install/unity_robotics_demo_msgs', 'merge_install': False, 'path': '/home/dev_ws/src/unity_robotics_demo_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_args' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_target' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.529s] DEBUG:colcon.colcon_core.verb:Building package 'utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dev_ws/build/utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dev_ws/install/utils', 'merge_install': False, 'path': '/home/dev_ws/src/utils', 'symlink_install': False, 'test_result_base': None}
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_target' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.532s] DEBUG:colcon.colcon_core.verb:Building package 'vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dev_ws/build/vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dev_ws/install/vision', 'merge_install': False, 'path': '/home/dev_ws/src/vision', 'symlink_install': False, 'test_result_base': None}
+[0.533s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.538s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.539s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dev_ws/src/audio' with build type 'ament_python'
+[0.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio', 'ament_prefix_path')
+[0.550s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/audio/share/audio/hook/ament_prefix_path.ps1'
+[0.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/audio/share/audio/hook/ament_prefix_path.dsv'
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/audio/share/audio/hook/ament_prefix_path.sh'
+[0.556s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.557s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.571s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dev_ws/src/face_controller' with build type 'ament_python'
+[0.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_controller', 'ament_prefix_path')
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/face_controller/share/face_controller/hook/ament_prefix_path.ps1'
+[0.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/face_controller/share/face_controller/hook/ament_prefix_path.dsv'
+[0.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/face_controller/share/face_controller/hook/ament_prefix_path.sh'
+[0.580s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.580s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.592s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dev_ws/src/manipulation' with build type 'ament_python'
+[0.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulation', 'ament_prefix_path')
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/manipulation/share/manipulation/hook/ament_prefix_path.ps1'
+[0.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/manipulation/share/manipulation/hook/ament_prefix_path.dsv'
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/manipulation/share/manipulation/hook/ament_prefix_path.sh'
+[0.600s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.600s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.612s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dev_ws/src/ros_tcp_endpoint' with build type 'ament_python'
+[0.613s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[0.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[0.622s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.622s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.632s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dev_ws/src/unity_robotics_demo' with build type 'ament_python'
+[0.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo', 'ament_prefix_path')
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/unity_robotics_demo/share/unity_robotics_demo/hook/ament_prefix_path.ps1'
+[0.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/unity_robotics_demo/share/unity_robotics_demo/hook/ament_prefix_path.dsv'
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/unity_robotics_demo/share/unity_robotics_demo/hook/ament_prefix_path.sh'
+[0.644s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.644s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.656s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dev_ws/src/unity_robotics_demo_msgs' with build type 'ament_cmake'
+[0.657s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dev_ws/src/unity_robotics_demo_msgs'
+[0.659s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.660s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.673s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dev_ws/src/utils' with build type 'ament_python'
+[0.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('utils', 'ament_prefix_path')
+[0.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/utils/share/utils/hook/ament_prefix_path.ps1'
+[0.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/utils/share/utils/hook/ament_prefix_path.dsv'
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/utils/share/utils/hook/ament_prefix_path.sh'
+[0.683s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.683s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.700s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dev_ws/src/vision' with build type 'ament_python'
+[0.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision', 'ament_prefix_path')
+[0.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/vision/share/vision/hook/ament_prefix_path.ps1'
+[0.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/vision/share/vision/hook/ament_prefix_path.dsv'
+[0.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/vision/share/vision/hook/ament_prefix_path.sh'
+[0.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.714s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.269s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dev_ws/src/audio'
+[1.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.271s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.776s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dev_ws/src/face_controller'
+[1.778s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.778s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.378s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dev_ws/src/manipulation'
+[2.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.900s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dev_ws/src/ros_tcp_endpoint'
+[2.902s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.902s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.422s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dev_ws/src/unity_robotics_demo'
+[3.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dev_ws/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/manipulation:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio /usr/bin/cmake --build /home/dev_ws/build/unity_robotics_demo_msgs -- -j12 -l12
+[4.038s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dev_ws/src/utils'
+[4.040s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.041s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.547s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dev_ws/src/vision'
+[4.549s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.549s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dev_ws/build/unity_robotics_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/manipulation:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio /usr/bin/cmake --build /home/dev_ws/build/unity_robotics_demo_msgs -- -j12 -l12
+[5.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dev_ws/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/manipulation:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio /usr/bin/cmake --install /home/dev_ws/build/unity_robotics_demo_msgs
+[5.588s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unity_robotics_demo_msgs)
+[5.605s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo_msgs' for CMake module files
+[5.616s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo_msgs' for CMake config files
+[5.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dev_ws/build/unity_robotics_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/manipulation:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio /usr/bin/cmake --install /home/dev_ws/build/unity_robotics_demo_msgs
+[5.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'cmake_prefix_path')
+[5.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.ps1'
+[5.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.dsv'
+[5.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.sh'
+[5.653s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo_msgs/lib'
+[5.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'ld_library_path_lib')
+[5.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.ps1'
+[5.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.dsv'
+[5.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.sh'
+[5.664s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo_msgs/bin'
+[5.664s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo_msgs/lib/pkgconfig/unity_robotics_demo_msgs.pc'
+[5.665s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages'
+[5.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'pythonpath')
+[5.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/pythonpath.ps1'
+[5.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/pythonpath.dsv'
+[5.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/pythonpath.sh'
+[5.681s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo_msgs/bin'
+[5.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.ps1'
+[5.688s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.dsv'
+[5.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.sh'
+[5.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.bash'
+[5.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.zsh'
+[5.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dev_ws/install/unity_robotics_demo_msgs/share/colcon-core/packages/unity_robotics_demo_msgs)
+[6.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dev_ws/src/vision': PYTHONPATH=/home/dev_ws/install/vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vision build --build-base /home/dev_ws/build/vision/build install --prefix /home/dev_ws/install/vision --record /home/dev_ws/build/vision/install.log --single-version-externally-managed
+[6.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dev_ws/src/manipulation': PYTHONPATH=/home/dev_ws/install/manipulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/manipulation build --build-base /home/dev_ws/build/manipulation/build install --prefix /home/dev_ws/install/manipulation --record /home/dev_ws/build/manipulation/install.log --single-version-externally-managed
+[6.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dev_ws/src/ros_tcp_endpoint': PYTHONPATH=/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/dev_ws/build/ros_tcp_endpoint/build install --prefix /home/dev_ws/install/ros_tcp_endpoint --record /home/dev_ws/build/ros_tcp_endpoint/install.log --single-version-externally-managed
+[6.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dev_ws/src/face_controller': PYTHONPATH=/home/dev_ws/install/face_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/face_controller build --build-base /home/dev_ws/build/face_controller/build install --prefix /home/dev_ws/install/face_controller --record /home/dev_ws/build/face_controller/install.log --single-version-externally-managed
+[6.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dev_ws/src/audio': PYTHONPATH=/home/dev_ws/install/audio/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/audio build --build-base /home/dev_ws/build/audio/build install --prefix /home/dev_ws/install/audio --record /home/dev_ws/build/audio/install.log --single-version-externally-managed
+[6.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dev_ws/src/unity_robotics_demo': PYTHONPATH=/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/dev_ws/build/unity_robotics_demo/build install --prefix /home/dev_ws/install/unity_robotics_demo --record /home/dev_ws/build/unity_robotics_demo/install.log --single-version-externally-managed
+[6.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dev_ws/src/utils': PYTHONPATH=/home/dev_ws/install/utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/utils build --build-base /home/dev_ws/build/utils/build install --prefix /home/dev_ws/install/utils --record /home/dev_ws/build/utils/install.log --single-version-externally-managed
+[6.347s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unity_robotics_demo_msgs)
+[6.351s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo_msgs' for CMake module files
+[6.354s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo_msgs' for CMake config files
+[6.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'cmake_prefix_path')
+[6.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.ps1'
+[6.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.dsv'
+[6.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.sh'
+[6.365s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo_msgs/lib'
+[6.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'ld_library_path_lib')
+[6.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.ps1'
+[6.368s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.dsv'
+[6.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.sh'
+[6.371s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo_msgs/bin'
+[6.371s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo_msgs/lib/pkgconfig/unity_robotics_demo_msgs.pc'
+[6.372s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages'
+[6.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'pythonpath')
+[6.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/pythonpath.ps1'
+[6.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/pythonpath.dsv'
+[6.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/pythonpath.sh'
+[6.381s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo_msgs/bin'
+[6.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.ps1'
+[6.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.dsv'
+[6.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.sh'
+[6.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.bash'
+[6.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.zsh'
+[6.393s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dev_ws/install/unity_robotics_demo_msgs/share/colcon-core/packages/unity_robotics_demo_msgs)
+[7.229s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/vision' for CMake module files
+[7.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dev_ws/src/vision' returned '0': PYTHONPATH=/home/dev_ws/install/vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vision build --build-base /home/dev_ws/build/vision/build install --prefix /home/dev_ws/install/vision --record /home/dev_ws/build/vision/install.log --single-version-externally-managed
+[7.234s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/vision' for CMake config files
+[7.236s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/vision/lib'
+[7.237s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/vision/bin'
+[7.237s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/vision/lib/pkgconfig/vision.pc'
+[7.238s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/vision/lib/python3.8/site-packages'
+[7.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision', 'pythonpath')
+[7.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/vision/share/vision/hook/pythonpath.ps1'
+[7.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/vision/share/vision/hook/pythonpath.dsv'
+[7.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/vision/share/vision/hook/pythonpath.sh'
+[7.254s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/vision/bin'
+[7.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision)
+[7.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/vision/share/vision/package.ps1'
+[7.261s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dev_ws/install/vision/share/vision/package.dsv'
+[7.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/vision/share/vision/package.sh'
+[7.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/vision/share/vision/package.bash'
+[7.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/vision/share/vision/package.zsh'
+[7.275s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dev_ws/install/vision/share/colcon-core/packages/vision)
+[7.293s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/manipulation' for CMake module files
+[7.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dev_ws/src/manipulation' returned '0': PYTHONPATH=/home/dev_ws/install/manipulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/manipulation build --build-base /home/dev_ws/build/manipulation/build install --prefix /home/dev_ws/install/manipulation --record /home/dev_ws/build/manipulation/install.log --single-version-externally-managed
+[7.301s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/manipulation' for CMake config files
+[7.304s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/manipulation/lib'
+[7.305s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/manipulation/bin'
+[7.305s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/manipulation/lib/pkgconfig/manipulation.pc'
+[7.306s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/manipulation/lib/python3.8/site-packages'
+[7.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulation', 'pythonpath')
+[7.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/manipulation/share/manipulation/hook/pythonpath.ps1'
+[7.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/manipulation/share/manipulation/hook/pythonpath.dsv'
+[7.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/manipulation/share/manipulation/hook/pythonpath.sh'
+[7.318s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/manipulation/bin'
+[7.318s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(manipulation)
+[7.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/manipulation/share/manipulation/package.ps1'
+[7.322s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dev_ws/install/manipulation/share/manipulation/package.dsv'
+[7.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/manipulation/share/manipulation/package.sh'
+[7.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/manipulation/share/manipulation/package.bash'
+[7.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/manipulation/share/manipulation/package.zsh'
+[7.333s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dev_ws/install/manipulation/share/colcon-core/packages/manipulation)
+[7.338s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/ros_tcp_endpoint' for CMake module files
+[7.344s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/ros_tcp_endpoint' for CMake config files
+[7.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dev_ws/src/ros_tcp_endpoint' returned '0': PYTHONPATH=/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/dev_ws/build/ros_tcp_endpoint/build install --prefix /home/dev_ws/install/ros_tcp_endpoint --record /home/dev_ws/build/ros_tcp_endpoint/install.log --single-version-externally-managed
+[7.347s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/ros_tcp_endpoint/lib'
+[7.348s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/ros_tcp_endpoint/bin'
+[7.349s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[7.350s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages'
+[7.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[7.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[7.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[7.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[7.354s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/ros_tcp_endpoint/bin'
+[7.355s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[7.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[7.357s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dev_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[7.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[7.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[7.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[7.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dev_ws/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[7.372s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/audio' for CMake module files
+[7.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dev_ws/src/audio' returned '0': PYTHONPATH=/home/dev_ws/install/audio/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/audio build --build-base /home/dev_ws/build/audio/build install --prefix /home/dev_ws/install/audio --record /home/dev_ws/build/audio/install.log --single-version-externally-managed
+[7.375s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/audio' for CMake config files
+[7.377s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/audio/lib'
+[7.377s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/audio/bin'
+[7.378s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/audio/lib/pkgconfig/audio.pc'
+[7.379s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/audio/lib/python3.8/site-packages'
+[7.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio', 'pythonpath')
+[7.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/audio/share/audio/hook/pythonpath.ps1'
+[7.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/audio/share/audio/hook/pythonpath.dsv'
+[7.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/audio/share/audio/hook/pythonpath.sh'
+[7.385s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/audio/bin'
+[7.385s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(audio)
+[7.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/audio/share/audio/package.ps1'
+[7.387s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dev_ws/install/audio/share/audio/package.dsv'
+[7.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/audio/share/audio/package.sh'
+[7.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/audio/share/audio/package.bash'
+[7.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/audio/share/audio/package.zsh'
+[7.391s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dev_ws/install/audio/share/colcon-core/packages/audio)
+[7.395s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo' for CMake module files
+[7.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dev_ws/src/unity_robotics_demo' returned '0': PYTHONPATH=/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/dev_ws/build/unity_robotics_demo/build install --prefix /home/dev_ws/install/unity_robotics_demo --record /home/dev_ws/build/unity_robotics_demo/install.log --single-version-externally-managed
+[7.402s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo' for CMake config files
+[7.405s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo/lib'
+[7.405s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo/bin'
+[7.405s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo/lib/pkgconfig/unity_robotics_demo.pc'
+[7.406s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages'
+[7.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo', 'pythonpath')
+[7.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/unity_robotics_demo/share/unity_robotics_demo/hook/pythonpath.ps1'
+[7.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/unity_robotics_demo/share/unity_robotics_demo/hook/pythonpath.dsv'
+[7.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/unity_robotics_demo/share/unity_robotics_demo/hook/pythonpath.sh'
+[7.413s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/unity_robotics_demo/bin'
+[7.415s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unity_robotics_demo)
+[7.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/unity_robotics_demo/share/unity_robotics_demo/package.ps1'
+[7.418s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dev_ws/install/unity_robotics_demo/share/unity_robotics_demo/package.dsv'
+[7.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/unity_robotics_demo/share/unity_robotics_demo/package.sh'
+[7.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/unity_robotics_demo/share/unity_robotics_demo/package.bash'
+[7.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/unity_robotics_demo/share/unity_robotics_demo/package.zsh'
+[7.423s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dev_ws/install/unity_robotics_demo/share/colcon-core/packages/unity_robotics_demo)
+[7.425s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/face_controller' for CMake module files
+[7.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dev_ws/src/face_controller' returned '0': PYTHONPATH=/home/dev_ws/install/face_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/face_controller build --build-base /home/dev_ws/build/face_controller/build install --prefix /home/dev_ws/install/face_controller --record /home/dev_ws/build/face_controller/install.log --single-version-externally-managed
+[7.432s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/face_controller' for CMake config files
+[7.435s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/face_controller/lib'
+[7.437s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/face_controller/bin'
+[7.437s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/face_controller/lib/pkgconfig/face_controller.pc'
+[7.438s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/face_controller/lib/python3.8/site-packages'
+[7.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_controller', 'pythonpath')
+[7.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/face_controller/share/face_controller/hook/pythonpath.ps1'
+[7.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/face_controller/share/face_controller/hook/pythonpath.dsv'
+[7.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/face_controller/share/face_controller/hook/pythonpath.sh'
+[7.443s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/face_controller/bin'
+[7.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(face_controller)
+[7.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/face_controller/share/face_controller/package.ps1'
+[7.447s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dev_ws/install/face_controller/share/face_controller/package.dsv'
+[7.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/face_controller/share/face_controller/package.sh'
+[7.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/face_controller/share/face_controller/package.bash'
+[7.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/face_controller/share/face_controller/package.zsh'
+[7.453s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dev_ws/install/face_controller/share/colcon-core/packages/face_controller)
+[7.455s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/utils' for CMake module files
+[7.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dev_ws/src/utils' returned '0': PYTHONPATH=/home/dev_ws/install/utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/utils build --build-base /home/dev_ws/build/utils/build install --prefix /home/dev_ws/install/utils --record /home/dev_ws/build/utils/install.log --single-version-externally-managed
+[7.461s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/utils' for CMake config files
+[7.465s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/utils/lib'
+[7.465s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/utils/bin'
+[7.466s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/utils/lib/pkgconfig/utils.pc'
+[7.467s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/utils/lib/python3.8/site-packages'
+[7.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('utils', 'pythonpath')
+[7.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/utils/share/utils/hook/pythonpath.ps1'
+[7.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev_ws/install/utils/share/utils/hook/pythonpath.dsv'
+[7.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev_ws/install/utils/share/utils/hook/pythonpath.sh'
+[7.473s] Level 1:colcon.colcon_core.environment:checking '/home/dev_ws/install/utils/bin'
+[7.473s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(utils)
+[7.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/utils/share/utils/package.ps1'
+[7.476s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dev_ws/install/utils/share/utils/package.dsv'
+[7.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/utils/share/utils/package.sh'
+[7.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/utils/share/utils/package.bash'
+[7.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev_ws/install/utils/share/utils/package.zsh'
+[7.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dev_ws/install/utils/share/colcon-core/packages/utils)
+[7.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.485s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.486s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.487s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.513s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[7.515s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.515s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.516s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.516s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[7.516s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.517s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dev_ws/install/local_setup.ps1'
+[7.520s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dev_ws/install/_local_setup_util_ps1.py'
+[7.523s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dev_ws/install/setup.ps1'
+[7.529s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dev_ws/install/local_setup.sh'
+[7.532s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dev_ws/install/_local_setup_util_sh.py'
+[7.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dev_ws/install/setup.sh'
+[7.540s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dev_ws/install/local_setup.bash'
+[7.545s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dev_ws/install/setup.bash'
+[7.550s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dev_ws/install/local_setup.zsh'
+[7.552s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dev_ws/install/setup.zsh'
