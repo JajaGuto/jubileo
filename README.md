@@ -1,5 +1,9 @@
 <h2 align="center">Jubileo: An Open-Source Robot and Framework<br/>for Research in Human-Robot Social Interaction</h2>
 
+<p align="center"> 
+  <img src="media/vrEnvironment.png" alt="Diagram" width="500"/>
+</p>
+
 <p align="center">
   <img src="https://img.shields.io/badge/ROS-FoxyFitzroy-yellow"/>
   <img src="https://img.shields.io/badge/Numpy-blue"/>
@@ -15,7 +19,7 @@
   <img src="https://img.shields.io/badge/Google_cloud-blue"/>
 </p>
 <br/>
-
+ 
 ## Objective
 <p align="justify"> 
   <a>Human-robot interaction (HRI) is essential to the widespread use of robots in daily life. Robots will eventually be able to carry out a variety of duties in human civilization through effective social interaction. Creating straightforward and understandable interfaces to engage with robots as they start to proliferate in the personal workspace is essential. Typically, interactions with simulated robots are displayed on screens. A more appealing alternative is virtual reality (VR), which gives visual cues more like those seen in the real world. In this study, we introduce Jubileo, a robotic animatronic face with various tools for research and application development in human-robot social interaction field. Jubileo project offers more than just a fully functional open-source physical robot; it also gives a comprehensive framework to operate with a VR interface, enabling an immersive environment for HRI application tests and noticeably better deployment speed.</a>  
