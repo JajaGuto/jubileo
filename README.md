@@ -1,7 +1,7 @@
 <h2 align="center">Jubileo: An Open-Source Robot and Framework<br/>for Research in Human-Robot Social Interaction</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ROS-NoeticNinjemys-yellow"/>
+  <img src="https://img.shields.io/badge/ROS-FoxyFitzroy-yellow"/>
   <img src="https://img.shields.io/badge/Numpy-blue"/>
   <img src="https://img.shields.io/badge/Imutils-blue"/>
   <img src="https://img.shields.io/badge/Matplotlib-blue"/>
