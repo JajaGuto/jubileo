@@ -39,6 +39,10 @@ We strongly recommend using the package with the pre-configured <a href="https:/
 
 Note: depending on the speed of your internet connection this can take a long time. 
 
+## VR Simulation
+
+You can download and configure the Jubileo's VR HRI framework at <a href='https://github.com/JajaGuto/vr_hri_framework'>this</a> repository.
+
 ## Structure
 <p align="justify"> 
 The ROS packages developed for the Jubileo framework aim to provide researchers with a complete base of algorithms that enriches the robot's capabilities, such as computer vision, speech recognition, and robot joint control. The framework provides a ROS structure that is compatible with both the real and the simulated robot. A simplified overview of the Jubileo's ROS connection nodes is present in image bellow. 
