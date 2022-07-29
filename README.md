@@ -41,6 +41,10 @@ Note: depending on the speed of your internet connection this can take a long ti
 
 ## VR Simulation
 
+You can download the 3D models to 3D print the animatronic face, or download the URDF of Jubileo to use in any simulation platform at <a href='https://github.com/JajaGuto/jubileo_models'>this</a> repository.
+
+## VR Simulation
+
 You can download and configure the Jubileo's VR HRI framework at <a href='https://github.com/JajaGuto/vr_hri_framework'>this</a> repository.
 
 ## Structure
