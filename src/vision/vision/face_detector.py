@@ -14,7 +14,8 @@ import imutils
 import numpy as np
 # import matplotlib.pyplot as plt
 import os
-import bleedfacedetector as fd
+#import bleedfacedetector as fd
+import face_recognition
 import time
 
 from rclpy.qos import qos_profile_sensor_data
@@ -101,8 +102,10 @@ class FaceDetector(Node):
         cv_image = self.bridge.imgmsg_to_cv2(image, "bgr8")
 
         # Use SSD detector with 20% confidence threshold.
-        faces = fd.ssd_detect(cv_image, conf=0.2)
-        
+        #faces = fd.ssd_detect(cv_image, conf=0.2)
+
+        faces = face_recognition.face_locations(image)
+
         if len(faces) > 0:
                 
             debug = String()
