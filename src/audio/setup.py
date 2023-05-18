@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'speech_to_text = audio.speech_to_text:main'
+            'speech_to_text = audio.speech_to_text:main',
+            'send_audio = audio.send_audio:main'
         ],
     },
 )

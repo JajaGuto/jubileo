@@ -1,0 +1,493 @@
+[0.223s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.223s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f09acb53490>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f09acb53490>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f09acb53af0>)
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.272s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.272s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.273s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jubileo'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'ignore_ament_install'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['colcon_pkg']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'colcon_pkg'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['colcon_meta']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'colcon_meta'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['ros']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'ros'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['cmake', 'python']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'cmake'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'python'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['python_setup_py']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'python_setup_py'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/audio) by extension 'ros'
+[0.298s] DEBUG:colcon.colcon_core.package_identification:Package 'src/audio' with type 'ros.ament_python' and name 'audio'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_controller) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_controller) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_controller) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_controller) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_controller) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_controller) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_controller) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_controller) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/face_controller' with type 'ros.ament_python' and name 'face_controller'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extension 'ros'
+[0.301s] DEBUG:colcon.colcon_core.package_identification:Package 'src/manipulation' with type 'ros.ament_python' and name 'manipulation'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extension 'ros'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extensions ['cmake', 'python']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extension 'cmake'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extension 'python'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extensions ['python_setup_py']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tcp_endpoint) by extension 'python_setup_py'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unity_robotics_demo' with type 'ros.ament_python' and name 'unity_robotics_demo'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unity_robotics_demo_msgs' with type 'ros.ament_cmake' and name 'unity_robotics_demo_msgs'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'ros'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/utils' with type 'ros.ament_python' and name 'utils'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision' with type 'ros.ament_python' and name 'vision'
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'audio' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'audio' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'audio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'audio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'audio' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'audio' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'audio' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'audio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'audio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'audio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jubileo/build/audio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jubileo/install/audio', 'merge_install': False, 'path': '/home/jubileo/src/audio', 'symlink_install': False, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'face_controller' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'face_controller' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'face_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'face_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'face_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'face_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'face_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'face_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'face_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'face_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jubileo/build/face_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jubileo/install/face_controller', 'merge_install': False, 'path': '/home/jubileo/src/face_controller', 'symlink_install': False, 'test_result_base': None}
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'manipulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jubileo/build/manipulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jubileo/install/manipulation', 'merge_install': False, 'path': '/home/jubileo/src/manipulation', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'unity_robotics_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jubileo/build/unity_robotics_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jubileo/install/unity_robotics_demo', 'merge_install': False, 'path': '/home/jubileo/src/unity_robotics_demo', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'unity_robotics_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jubileo/build/unity_robotics_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jubileo/install/unity_robotics_demo_msgs', 'merge_install': False, 'path': '/home/jubileo/src/unity_robotics_demo_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jubileo/build/utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jubileo/install/utils', 'merge_install': False, 'path': '/home/jubileo/src/utils', 'symlink_install': False, 'test_result_base': None}
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.342s] DEBUG:colcon.colcon_core.verb:Building package 'vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jubileo/build/vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jubileo/install/vision', 'merge_install': False, 'path': '/home/jubileo/src/vision', 'symlink_install': False, 'test_result_base': None}
+[0.342s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.344s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.345s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jubileo/src/audio' with build type 'ament_python'
+[0.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio', 'ament_prefix_path')
+[0.350s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/audio/share/audio/hook/ament_prefix_path.ps1'
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jubileo/install/audio/share/audio/hook/ament_prefix_path.dsv'
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/audio/share/audio/hook/ament_prefix_path.sh'
+[0.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.362s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jubileo/src/face_controller' with build type 'ament_python'
+[0.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_controller', 'ament_prefix_path')
+[0.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/face_controller/share/face_controller/hook/ament_prefix_path.ps1'
+[0.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jubileo/install/face_controller/share/face_controller/hook/ament_prefix_path.dsv'
+[0.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/face_controller/share/face_controller/hook/ament_prefix_path.sh'
+[0.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.372s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jubileo/src/manipulation' with build type 'ament_python'
+[0.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulation', 'ament_prefix_path')
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/manipulation/share/manipulation/hook/ament_prefix_path.ps1'
+[0.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jubileo/install/manipulation/share/manipulation/hook/ament_prefix_path.dsv'
+[0.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/manipulation/share/manipulation/hook/ament_prefix_path.sh'
+[0.376s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.376s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.385s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jubileo/src/unity_robotics_demo' with build type 'ament_python'
+[0.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo', 'ament_prefix_path')
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/unity_robotics_demo/share/unity_robotics_demo/hook/ament_prefix_path.ps1'
+[0.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jubileo/install/unity_robotics_demo/share/unity_robotics_demo/hook/ament_prefix_path.dsv'
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/unity_robotics_demo/share/unity_robotics_demo/hook/ament_prefix_path.sh'
+[0.389s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.389s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.397s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jubileo/src/unity_robotics_demo_msgs' with build type 'ament_cmake'
+[0.398s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jubileo/src/unity_robotics_demo_msgs'
+[0.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.407s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jubileo/src/utils' with build type 'ament_python'
+[0.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('utils', 'ament_prefix_path')
+[0.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/utils/share/utils/hook/ament_prefix_path.ps1'
+[0.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jubileo/install/utils/share/utils/hook/ament_prefix_path.dsv'
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/utils/share/utils/hook/ament_prefix_path.sh'
+[0.413s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.413s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.420s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jubileo/src/vision' with build type 'ament_python'
+[0.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision', 'ament_prefix_path')
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/vision/share/vision/hook/ament_prefix_path.ps1'
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jubileo/install/vision/share/vision/hook/ament_prefix_path.dsv'
+[0.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/vision/share/vision/hook/ament_prefix_path.sh'
+[0.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.669s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jubileo/src/audio'
+[0.670s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.670s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.875s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jubileo/src/face_controller'
+[0.876s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.876s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.086s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jubileo/src/manipulation'
+[1.087s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.087s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.290s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jubileo/src/unity_robotics_demo'
+[1.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jubileo/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jubileo/install/vision:/home/jubileo/install/utils:/home/jubileo/install/unity_robotics_demo:/home/jubileo/install/ros_tcp_endpoint:/home/jubileo/install/manipulation:/home/jubileo/install/face_controller:/home/jubileo/install/audio:/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio /usr/bin/cmake --build /home/jubileo/build/unity_robotics_demo_msgs -- -j12 -l12
+[1.523s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jubileo/src/utils'
+[1.524s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.524s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.734s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jubileo/src/vision'
+[1.735s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.735s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jubileo/src/manipulation': PYTHONPATH=/home/jubileo/install/manipulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/manipulation build --build-base /home/jubileo/build/manipulation/build install --prefix /home/jubileo/install/manipulation --record /home/jubileo/build/manipulation/install.log --single-version-externally-managed
+[2.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jubileo/src/vision': PYTHONPATH=/home/jubileo/install/vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vision build --build-base /home/jubileo/build/vision/build install --prefix /home/jubileo/install/vision --record /home/jubileo/build/vision/install.log --single-version-externally-managed
+[2.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jubileo/src/audio': PYTHONPATH=/home/jubileo/install/audio/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/audio build --build-base /home/jubileo/build/audio/build install --prefix /home/jubileo/install/audio --record /home/jubileo/build/audio/install.log --single-version-externally-managed
+[2.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jubileo/src/face_controller': PYTHONPATH=/home/jubileo/install/face_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/face_controller build --build-base /home/jubileo/build/face_controller/build install --prefix /home/jubileo/install/face_controller --record /home/jubileo/build/face_controller/install.log --single-version-externally-managed
+[2.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jubileo/src/unity_robotics_demo': PYTHONPATH=/home/jubileo/install/unity_robotics_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/jubileo/build/unity_robotics_demo/build install --prefix /home/jubileo/install/unity_robotics_demo --record /home/jubileo/build/unity_robotics_demo/install.log --single-version-externally-managed
+[2.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jubileo/src/utils': PYTHONPATH=/home/jubileo/install/utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/utils build --build-base /home/jubileo/build/utils/build install --prefix /home/jubileo/install/utils --record /home/jubileo/build/utils/install.log --single-version-externally-managed
+[2.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jubileo/src/manipulation' returned '0': PYTHONPATH=/home/jubileo/install/manipulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/manipulation build --build-base /home/jubileo/build/manipulation/build install --prefix /home/jubileo/install/manipulation --record /home/jubileo/build/manipulation/install.log --single-version-externally-managed
+[2.832s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/manipulation' for CMake module files
+[2.833s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/manipulation' for CMake config files
+[2.835s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/manipulation/lib'
+[2.835s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/manipulation/bin'
+[2.836s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/manipulation/lib/pkgconfig/manipulation.pc'
+[2.836s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/manipulation/lib/python3.8/site-packages'
+[2.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulation', 'pythonpath')
+[2.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/manipulation/share/manipulation/hook/pythonpath.ps1'
+[2.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jubileo/install/manipulation/share/manipulation/hook/pythonpath.dsv'
+[2.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/manipulation/share/manipulation/hook/pythonpath.sh'
+[2.842s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/manipulation/bin'
+[2.842s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(manipulation)
+[2.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/manipulation/share/manipulation/package.ps1'
+[2.844s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jubileo/install/manipulation/share/manipulation/package.dsv'
+[2.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/manipulation/share/manipulation/package.sh'
+[2.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/manipulation/share/manipulation/package.bash'
+[2.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/manipulation/share/manipulation/package.zsh'
+[2.847s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jubileo/install/manipulation/share/colcon-core/packages/manipulation)
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/vision' for CMake module files
+[2.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jubileo/src/vision' returned '0': PYTHONPATH=/home/jubileo/install/vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vision build --build-base /home/jubileo/build/vision/build install --prefix /home/jubileo/install/vision --record /home/jubileo/build/vision/install.log --single-version-externally-managed
+[2.853s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/vision' for CMake config files
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/vision/lib'
+[2.855s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/vision/bin'
+[2.855s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/vision/lib/pkgconfig/vision.pc'
+[2.855s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/vision/lib/python3.8/site-packages'
+[2.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision', 'pythonpath')
+[2.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/vision/share/vision/hook/pythonpath.ps1'
+[2.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jubileo/install/vision/share/vision/hook/pythonpath.dsv'
+[2.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/vision/share/vision/hook/pythonpath.sh'
+[2.857s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/vision/bin'
+[2.857s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision)
+[2.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/vision/share/vision/package.ps1'
+[2.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jubileo/install/vision/share/vision/package.dsv'
+[2.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/vision/share/vision/package.sh'
+[2.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/vision/share/vision/package.bash'
+[2.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/vision/share/vision/package.zsh'
+[2.859s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jubileo/install/vision/share/colcon-core/packages/vision)
+[2.860s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/utils' for CMake module files
+[2.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jubileo/src/utils' returned '0': PYTHONPATH=/home/jubileo/install/utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/utils build --build-base /home/jubileo/build/utils/build install --prefix /home/jubileo/install/utils --record /home/jubileo/build/utils/install.log --single-version-externally-managed
+[2.862s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/utils' for CMake config files
+[2.863s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/utils/lib'
+[2.863s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/utils/bin'
+[2.863s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/utils/lib/pkgconfig/utils.pc'
+[2.863s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/utils/lib/python3.8/site-packages'
+[2.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('utils', 'pythonpath')
+[2.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/utils/share/utils/hook/pythonpath.ps1'
+[2.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jubileo/install/utils/share/utils/hook/pythonpath.dsv'
+[2.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/utils/share/utils/hook/pythonpath.sh'
+[2.865s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/utils/bin'
+[2.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(utils)
+[2.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/utils/share/utils/package.ps1'
+[2.866s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jubileo/install/utils/share/utils/package.dsv'
+[2.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/utils/share/utils/package.sh'
+[2.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/utils/share/utils/package.bash'
+[2.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/utils/share/utils/package.zsh'
+[2.867s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jubileo/install/utils/share/colcon-core/packages/utils)
+[2.868s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/face_controller' for CMake module files
+[2.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jubileo/src/face_controller' returned '0': PYTHONPATH=/home/jubileo/install/face_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/face_controller build --build-base /home/jubileo/build/face_controller/build install --prefix /home/jubileo/install/face_controller --record /home/jubileo/build/face_controller/install.log --single-version-externally-managed
+[2.870s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/face_controller' for CMake config files
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/face_controller/lib'
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/face_controller/bin'
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/face_controller/lib/pkgconfig/face_controller.pc'
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/face_controller/lib/python3.8/site-packages'
+[2.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_controller', 'pythonpath')
+[2.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/face_controller/share/face_controller/hook/pythonpath.ps1'
+[2.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jubileo/install/face_controller/share/face_controller/hook/pythonpath.dsv'
+[2.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/face_controller/share/face_controller/hook/pythonpath.sh'
+[2.873s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/face_controller/bin'
+[2.873s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(face_controller)
+[2.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/face_controller/share/face_controller/package.ps1'
+[2.874s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jubileo/install/face_controller/share/face_controller/package.dsv'
+[2.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/face_controller/share/face_controller/package.sh'
+[2.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/face_controller/share/face_controller/package.bash'
+[2.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/face_controller/share/face_controller/package.zsh'
+[2.876s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jubileo/install/face_controller/share/colcon-core/packages/face_controller)
+[2.877s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/audio' for CMake module files
+[2.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jubileo/src/audio' returned '0': PYTHONPATH=/home/jubileo/install/audio/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/audio build --build-base /home/jubileo/build/audio/build install --prefix /home/jubileo/install/audio --record /home/jubileo/build/audio/install.log --single-version-externally-managed
+[2.879s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/audio' for CMake config files
+[2.880s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/audio/lib'
+[2.880s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/audio/bin'
+[2.880s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/audio/lib/pkgconfig/audio.pc'
+[2.880s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/audio/lib/python3.8/site-packages'
+[2.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio', 'pythonpath')
+[2.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/audio/share/audio/hook/pythonpath.ps1'
+[2.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jubileo/install/audio/share/audio/hook/pythonpath.dsv'
+[2.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/audio/share/audio/hook/pythonpath.sh'
+[2.883s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/audio/bin'
+[2.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(audio)
+[2.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/audio/share/audio/package.ps1'
+[2.884s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jubileo/install/audio/share/audio/package.dsv'
+[2.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/audio/share/audio/package.sh'
+[2.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/audio/share/audio/package.bash'
+[2.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/audio/share/audio/package.zsh'
+[2.885s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jubileo/install/audio/share/colcon-core/packages/audio)
+[2.887s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo' for CMake module files
+[2.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jubileo/src/unity_robotics_demo' returned '0': PYTHONPATH=/home/jubileo/install/unity_robotics_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/jubileo/build/unity_robotics_demo/build install --prefix /home/jubileo/install/unity_robotics_demo --record /home/jubileo/build/unity_robotics_demo/install.log --single-version-externally-managed
+[2.888s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo' for CMake config files
+[2.889s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo/lib'
+[2.889s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo/bin'
+[2.889s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo/lib/pkgconfig/unity_robotics_demo.pc'
+[2.889s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo/lib/python3.8/site-packages'
+[2.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo', 'pythonpath')
+[2.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/unity_robotics_demo/share/unity_robotics_demo/hook/pythonpath.ps1'
+[2.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jubileo/install/unity_robotics_demo/share/unity_robotics_demo/hook/pythonpath.dsv'
+[2.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/unity_robotics_demo/share/unity_robotics_demo/hook/pythonpath.sh'
+[2.891s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo/bin'
+[2.891s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unity_robotics_demo)
+[2.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/unity_robotics_demo/share/unity_robotics_demo/package.ps1'
+[2.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jubileo/install/unity_robotics_demo/share/unity_robotics_demo/package.dsv'
+[2.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/unity_robotics_demo/share/unity_robotics_demo/package.sh'
+[2.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/unity_robotics_demo/share/unity_robotics_demo/package.bash'
+[2.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/unity_robotics_demo/share/unity_robotics_demo/package.zsh'
+[2.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jubileo/install/unity_robotics_demo/share/colcon-core/packages/unity_robotics_demo)
+[6.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jubileo/build/unity_robotics_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jubileo/install/vision:/home/jubileo/install/utils:/home/jubileo/install/unity_robotics_demo:/home/jubileo/install/ros_tcp_endpoint:/home/jubileo/install/manipulation:/home/jubileo/install/face_controller:/home/jubileo/install/audio:/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio /usr/bin/cmake --build /home/jubileo/build/unity_robotics_demo_msgs -- -j12 -l12
+[7.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jubileo/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jubileo/install/vision:/home/jubileo/install/utils:/home/jubileo/install/unity_robotics_demo:/home/jubileo/install/ros_tcp_endpoint:/home/jubileo/install/manipulation:/home/jubileo/install/face_controller:/home/jubileo/install/audio:/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio /usr/bin/cmake --install /home/jubileo/build/unity_robotics_demo_msgs
+[7.255s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unity_robotics_demo_msgs)
+[7.256s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo_msgs' for CMake module files
+[7.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jubileo/build/unity_robotics_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jubileo/install/vision:/home/jubileo/install/utils:/home/jubileo/install/unity_robotics_demo:/home/jubileo/install/ros_tcp_endpoint:/home/jubileo/install/manipulation:/home/jubileo/install/face_controller:/home/jubileo/install/audio:/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio /usr/bin/cmake --install /home/jubileo/build/unity_robotics_demo_msgs
+[7.257s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo_msgs' for CMake config files
+[7.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'cmake_prefix_path')
+[7.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.ps1'
+[7.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.dsv'
+[7.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.sh'
+[7.260s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo_msgs/lib'
+[7.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'ld_library_path_lib')
+[7.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.ps1'
+[7.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.dsv'
+[7.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.sh'
+[7.261s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo_msgs/bin'
+[7.261s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo_msgs/lib/pkgconfig/unity_robotics_demo_msgs.pc'
+[7.262s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo_msgs/lib/python3.8/site-packages'
+[7.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'pythonpath')
+[7.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/pythonpath.ps1'
+[7.263s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/pythonpath.dsv'
+[7.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/pythonpath.sh'
+[7.263s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo_msgs/bin'
+[7.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.ps1'
+[7.264s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.dsv'
+[7.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.sh'
+[7.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.bash'
+[7.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.zsh'
+[7.266s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jubileo/install/unity_robotics_demo_msgs/share/colcon-core/packages/unity_robotics_demo_msgs)
+[7.437s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unity_robotics_demo_msgs)
+[7.438s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo_msgs' for CMake module files
+[7.439s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo_msgs' for CMake config files
+[7.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'cmake_prefix_path')
+[7.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.ps1'
+[7.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.dsv'
+[7.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.sh'
+[7.441s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo_msgs/lib'
+[7.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'ld_library_path_lib')
+[7.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.ps1'
+[7.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.dsv'
+[7.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.sh'
+[7.443s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo_msgs/bin'
+[7.443s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo_msgs/lib/pkgconfig/unity_robotics_demo_msgs.pc'
+[7.443s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo_msgs/lib/python3.8/site-packages'
+[7.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'pythonpath')
+[7.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/pythonpath.ps1'
+[7.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/pythonpath.dsv'
+[7.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/pythonpath.sh'
+[7.445s] Level 1:colcon.colcon_core.environment:checking '/home/jubileo/install/unity_robotics_demo_msgs/bin'
+[7.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.ps1'
+[7.446s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.dsv'
+[7.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.sh'
+[7.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.bash'
+[7.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/jubileo/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.zsh'
+[7.447s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jubileo/install/unity_robotics_demo_msgs/share/colcon-core/packages/unity_robotics_demo_msgs)
+[7.448s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.448s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.448s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.448s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.474s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[7.474s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.474s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.475s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.475s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[7.475s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.476s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jubileo/install/local_setup.ps1'
+[7.477s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jubileo/install/_local_setup_util_ps1.py'
+[7.478s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jubileo/install/setup.ps1'
+[7.480s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jubileo/install/local_setup.sh'
+[7.480s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jubileo/install/_local_setup_util_sh.py'
+[7.481s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jubileo/install/setup.sh'
+[7.482s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jubileo/install/local_setup.bash'
+[7.483s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jubileo/install/setup.bash'
+[7.485s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jubileo/install/local_setup.zsh'
+[7.485s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jubileo/install/setup.zsh'

@@ -1,0 +1,26 @@
+[0.875s] Invoking command in '/home/jubileo/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio /usr/bin/cmake --build /home/jubileo/build/unity_robotics_demo_msgs -- -j12 -l12
+[1.267s] CMake Error: The current CMakeCache.txt directory /home/jubileo/build/unity_robotics_demo_msgs/CMakeCache.txt is different than the directory /home/dev_ws/build/unity_robotics_demo_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[1.268s] Traceback (most recent call last):
+[1.268s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[1.268s]     from ament_package.templates import get_environment_hook_template_path
+[1.269s] ModuleNotFoundError: No module named 'ament_package'
+[1.269s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[1.269s]   execute_process(/usr/bin/python3
+[1.269s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[1.269s]   /home/dev_ws/build/unity_robotics_demo_msgs/ament_cmake_package_templates/templates.cmake)
+[1.269s]   returned error code 1
+[1.270s] Call Stack (most recent call first):
+[1.270s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.270s]   /opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:4 (find_package)
+[1.270s]   /opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+[1.270s]   CMakeLists.txt:5 (find_package)
+[1.271s] 
+[1.271s] 
+[1.271s] make: *** [Makefile:2428: cmake_check_build_system] Error 1
+[1.271s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.272s] -- Found ament_cmake_core: 0.9.9 (/opt/ros/foxy/share/ament_cmake_core/cmake)
+[1.272s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.272s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.273s] -- Configuring incomplete, errors occurred!
+[1.273s] See also "/home/dev_ws/build/unity_robotics_demo_msgs/CMakeFiles/CMakeOutput.log".
+[1.277s] Invoked command in '/home/jubileo/build/unity_robotics_demo_msgs' returned '2': CMAKE_PREFIX_PATH=/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio /usr/bin/cmake --build /home/jubileo/build/unity_robotics_demo_msgs -- -j12 -l12
