@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.001402] (audio) JobQueued: {'identifier': 'audio', 'dependencies': OrderedDict()}
+[0.001496] (face_controller) JobQueued: {'identifier': 'face_controller', 'dependencies': OrderedDict()}
+[0.001962] (llm) JobQueued: {'identifier': 'llm', 'dependencies': OrderedDict()}
+[0.002020] (manipulation) JobQueued: {'identifier': 'manipulation', 'dependencies': OrderedDict()}
+[0.002045] (unity_robotics_demo) JobQueued: {'identifier': 'unity_robotics_demo', 'dependencies': OrderedDict()}
+[0.002093] (unity_robotics_demo_msgs) JobQueued: {'identifier': 'unity_robotics_demo_msgs', 'dependencies': OrderedDict()}
+[0.002117] (utils) JobQueued: {'identifier': 'utils', 'dependencies': OrderedDict()}
+[0.002165] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.002189] (audio) JobStarted: {'identifier': 'audio'}
+[0.016616] (face_controller) JobStarted: {'identifier': 'face_controller'}
+[0.028705] (llm) JobStarted: {'identifier': 'llm'}
+[0.037906] (manipulation) JobStarted: {'identifier': 'manipulation'}
+[0.050362] (unity_robotics_demo) JobStarted: {'identifier': 'unity_robotics_demo'}
+[0.062567] (unity_robotics_demo_msgs) JobStarted: {'identifier': 'unity_robotics_demo_msgs'}
+[0.069922] (utils) JobStarted: {'identifier': 'utils'}
+[0.081676] (vision) JobStarted: {'identifier': 'vision'}
+[0.100130] (-) TimerEvent: {}
+[0.200615] (-) TimerEvent: {}
+[0.302479] (-) TimerEvent: {}
+[0.402919] (-) TimerEvent: {}
+[0.503423] (-) TimerEvent: {}
+[0.603903] (-) TimerEvent: {}
+[0.704415] (-) TimerEvent: {}
+[0.805072] (-) TimerEvent: {}
+[0.905812] (-) TimerEvent: {}
+[1.006308] (-) TimerEvent: {}
+[1.107335] (-) TimerEvent: {}
+[1.197794] (unity_robotics_demo_msgs) JobProgress: {'identifier': 'unity_robotics_demo_msgs', 'progress': 'cmake'}
+[1.199706] (unity_robotics_demo_msgs) JobProgress: {'identifier': 'unity_robotics_demo_msgs', 'progress': 'build'}
+[1.199771] (unity_robotics_demo_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/dev_ws/build/unity_robotics_demo_msgs', '--', '-j12', '-l12'], 'cwd': '/home/dev_ws/build/unity_robotics_demo_msgs', 'env': OrderedDict([('HOSTNAME', '6d9bac903c10'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/dev_ws/install/unity_robotics_demo_msgs/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('CPLUS_INCLUDE_PATH', '/usr/local/lib/python3.8/dist-packages/numpy:'), ('COLCON_PREFIX_PATH', '/home/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/manipulation:/home/dev_ws/install/llm:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio'), ('PWD', '/home/dev_ws/build/unity_robotics_demo_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/home/dev_ws/install/vision/lib/python3.8/site-packages:/home/dev_ws/install/utils/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/dev_ws/install/manipulation/lib/python3.8/site-packages:/home/dev_ws/install/llm/lib/python3.8/site-packages:/home/dev_ws/install/face_controller/lib/python3.8/site-packages:/home/dev_ws/install/audio/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/dev_ws/install/unity_robotics_demo_msgs:/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/manipulation:/home/dev_ws/install/llm:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio')]), 'shell': False}
+[1.207677] (-) TimerEvent: {}
+[1.308186] (-) TimerEvent: {}
+[1.408620] (-) TimerEvent: {}
+[1.509134] (-) TimerEvent: {}
+[1.609831] (-) TimerEvent: {}
+[1.706368] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[  1%] Built target unity_robotics_demo_msgs__cpp\n'}
+[1.706746] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 12%] Built target unity_robotics_demo_msgs__rosidl_generator_c\n'}
+[1.707241] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 34%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.707410] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 35%] Built target unity_robotics_demo_msgs__rosidl_typesupport_cpp\n'}
+[1.707574] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 47%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.707737] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 63%] Built target unity_robotics_demo_msgs__rosidl_typesupport_c\n'}
+[1.709190] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 70%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[1.709331] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 81%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.709473] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 81%] Built target unity_robotics_demo_msgs\n'}
+[1.709611] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 82%] Built target unity_robotics_demo_msgs__py\n'}
+[1.711261] (-) TimerEvent: {}
+[1.711568] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/srv/_object_pose_service_s.c.o\x1b[0m\n'}
+[1.712075] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_audio_s.c.o\x1b[0m\n'}
+[1.712277] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_joints_to_target_s.c.o\x1b[0m\n'}
+[1.713188] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_rot_s.c.o\x1b[0m\n'}
+[1.713372] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_targets_reached_s.c.o\x1b[0m\n'}
+[1.713508] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_eyelids_s.c.o\x1b[0m\n'}
+[1.713621] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/srv/_position_service_s.c.o\x1b[0m\n'}
+[1.713801] (unity_robotics_demo_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_unity_color_s.c.o\x1b[0m\n'}
+[1.713954] (unity_robotics_demo_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/msg/_unity_color_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: No such file or directory\n'}
+[1.714114] (unity_robotics_demo_msgs) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[1.714268] (unity_robotics_demo_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.715267] (unity_robotics_demo_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[1.715458] (unity_robotics_demo_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:128: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_unity_color_s.c.o] Error 1\n'}
+[1.715687] (unity_robotics_demo_msgs) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[1.715857] (unity_robotics_demo_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/msg/_joints_to_target_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: No such file or directory\n'}
+[1.718148] (unity_robotics_demo_msgs) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[1.718454] (unity_robotics_demo_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.718608] (unity_robotics_demo_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[1.718766] (unity_robotics_demo_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:89: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_joints_to_target_s.c.o] Error 1\n'}
+[1.719749] (unity_robotics_demo_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_rot_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: No such file or directory\n'}
+[1.719920] (unity_robotics_demo_msgs) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[1.720034] (unity_robotics_demo_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.720152] (unity_robotics_demo_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[1.720511] (unity_robotics_demo_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:115: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_rot_s.c.o] Error 1\n'}
+[1.721035] (unity_robotics_demo_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_eyelids_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: No such file or directory\n'}
+[1.724400] (unity_robotics_demo_msgs) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[1.724777] (unity_robotics_demo_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.724963] (unity_robotics_demo_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[1.725132] (unity_robotics_demo_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/srv/_object_pose_service_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: No such file or directory\n'}
+[1.725289] (unity_robotics_demo_msgs) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[1.725460] (unity_robotics_demo_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.725600] (unity_robotics_demo_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[1.725799] (unity_robotics_demo_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/msg/_audio_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: No such file or directory\n'}
+[1.726384] (unity_robotics_demo_msgs) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[1.726559] (unity_robotics_demo_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.726711] (unity_robotics_demo_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[1.726847] (unity_robotics_demo_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:102: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_eyelids_s.c.o] Error 1\n'}
+[1.727005] (unity_robotics_demo_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:154: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/srv/_object_pose_service_s.c.o] Error 1\n'}
+[1.727155] (unity_robotics_demo_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:76: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_audio_s.c.o] Error 1\n'}
+[1.727320] (unity_robotics_demo_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/msg/_targets_reached_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: No such file or directory\n'}
+[1.727513] (unity_robotics_demo_msgs) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[1.727716] (unity_robotics_demo_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.727922] (unity_robotics_demo_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[1.728118] (unity_robotics_demo_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:63: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_targets_reached_s.c.o] Error 1\n'}
+[1.728346] (unity_robotics_demo_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/srv/_position_service_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: No such file or directory\n'}
+[1.729145] (unity_robotics_demo_msgs) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[1.729330] (unity_robotics_demo_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.729693] (unity_robotics_demo_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[1.729915] (unity_robotics_demo_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:141: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/srv/_position_service_s.c.o] Error 1\n'}
+[1.730153] (unity_robotics_demo_msgs) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:499: CMakeFiles/unity_robotics_demo_msgs__python.dir/all] Error 2\n'}
+[1.730901] (unity_robotics_demo_msgs) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[1.733958] (unity_robotics_demo_msgs) CommandEnded: {'returncode': 2}
+[1.811495] (-) TimerEvent: {}
+[1.912327] (-) TimerEvent: {}
+[2.007996] (unity_robotics_demo_msgs) JobEnded: {'identifier': 'unity_robotics_demo_msgs', 'rc': 2}
+[2.012448] (-) TimerEvent: {}
+[2.112857] (-) TimerEvent: {}
+[2.213348] (-) TimerEvent: {}
+[2.313734] (-) TimerEvent: {}
+[2.414145] (-) TimerEvent: {}
+[2.514565] (-) TimerEvent: {}
+[2.605595] (llm) JobEnded: {'identifier': 'llm', 'rc': 'SIGINT'}
+[2.614764] (-) TimerEvent: {}
+[2.631520] (audio) JobEnded: {'identifier': 'audio', 'rc': 'SIGINT'}
+[2.648008] (unity_robotics_demo) JobEnded: {'identifier': 'unity_robotics_demo', 'rc': 'SIGINT'}
+[2.657982] (face_controller) JobEnded: {'identifier': 'face_controller', 'rc': 'SIGINT'}
+[2.662684] (vision) JobEnded: {'identifier': 'vision', 'rc': 'SIGINT'}
+[2.663846] (manipulation) JobEnded: {'identifier': 'manipulation', 'rc': 'SIGINT'}
+[2.667228] (utils) JobEnded: {'identifier': 'utils', 'rc': 'SIGINT'}
+[2.669176] (-) EventReactorShutdown: {}

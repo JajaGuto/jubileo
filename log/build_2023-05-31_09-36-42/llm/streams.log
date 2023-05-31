@@ -1,0 +1,64 @@
+[5.309s] Invoking command in '/home/dev_ws/src/llm': PYTHONPATH=/home/dev_ws/install/llm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/llm build --build-base /home/dev_ws/build/llm/build install --prefix /home/dev_ws/install/llm --record /home/dev_ws/build/llm/install.log --single-version-externally-managed
+[5.684s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[5.684s] !!
+[5.685s] 
+[5.685s]         ********************************************************************************
+[5.685s]         Usage of dash-separated 'script-dir' will not be supported in future
+[5.687s]         versions. Please use the underscore name 'script_dir' instead.
+[5.687s] 
+[5.687s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[5.687s]         or your builds will no longer be supported.
+[5.688s] 
+[5.688s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[5.688s]         ********************************************************************************
+[5.688s] 
+[5.688s] !!
+[5.689s]   opt = self.warn_dash_deprecation(opt, section)
+[5.696s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[5.696s] !!
+[5.696s] 
+[5.697s]         ********************************************************************************
+[5.697s]         Usage of dash-separated 'install-scripts' will not be supported in future
+[5.698s]         versions. Please use the underscore name 'install_scripts' instead.
+[5.698s] 
+[5.698s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[5.699s]         or your builds will no longer be supported.
+[5.699s] 
+[5.699s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[5.700s]         ********************************************************************************
+[5.700s] 
+[5.700s] !!
+[5.701s]   opt = self.warn_dash_deprecation(opt, section)
+[5.973s] running egg_info
+[6.015s] writing ../../build/llm/llm.egg-info/PKG-INFO
+[6.016s] writing dependency_links to ../../build/llm/llm.egg-info/dependency_links.txt
+[6.017s] writing entry points to ../../build/llm/llm.egg-info/entry_points.txt
+[6.018s] writing requirements to ../../build/llm/llm.egg-info/requires.txt
+[6.020s] writing top-level names to ../../build/llm/llm.egg-info/top_level.txt
+[6.447s] reading manifest file '../../build/llm/llm.egg-info/SOURCES.txt'
+[6.452s] writing manifest file '../../build/llm/llm.egg-info/SOURCES.txt'
+[6.453s] running build
+[6.453s] running build_py
+[6.463s] running install
+[6.464s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[6.464s] !!
+[6.465s] 
+[6.465s]         ********************************************************************************
+[6.465s]         Please avoid running ``setup.py`` directly.
+[6.466s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[6.466s]         other standards-based tools.
+[6.467s] 
+[6.467s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[6.468s]         ********************************************************************************
+[6.468s] 
+[6.470s] !!
+[6.471s]   self.initialize_options()
+[6.490s] running install_lib
+[6.559s] running install_data
+[6.617s] running install_egg_info
+[6.666s] removing '/home/dev_ws/install/llm/lib/python3.8/site-packages/llm-0.0.0-py3.8.egg-info' (and everything under it)
+[6.667s] Copying ../../build/llm/llm.egg-info to /home/dev_ws/install/llm/lib/python3.8/site-packages/llm-0.0.0-py3.8.egg-info
+[6.671s] running install_scripts
+[6.853s] Installing guess_game script to /home/dev_ws/install/llm/lib/llm
+[6.874s] writing list of installed files to '/home/dev_ws/build/llm/install.log'
+[7.041s] Invoked command in '/home/dev_ws/src/llm' returned '0': PYTHONPATH=/home/dev_ws/install/llm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/llm build --build-base /home/dev_ws/build/llm/build install --prefix /home/dev_ws/install/llm --record /home/dev_ws/build/llm/install.log --single-version-externally-managed

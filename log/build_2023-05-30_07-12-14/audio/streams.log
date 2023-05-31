@@ -1,0 +1,66 @@
+[3.190s] Invoking command in '/home/dev_ws/src/audio': PYTHONPATH=/home/dev_ws/install/audio/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/audio build --build-base /home/dev_ws/build/audio/build install --prefix /home/dev_ws/install/audio --record /home/dev_ws/build/audio/install.log --single-version-externally-managed
+[3.459s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[3.460s] !!
+[3.460s] 
+[3.460s]         ********************************************************************************
+[3.461s]         Usage of dash-separated 'script-dir' will not be supported in future
+[3.461s]         versions. Please use the underscore name 'script_dir' instead.
+[3.462s] 
+[3.462s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[3.462s]         or your builds will no longer be supported.
+[3.463s] 
+[3.463s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[3.464s]         ********************************************************************************
+[3.464s] 
+[3.464s] !!
+[3.464s]   opt = self.warn_dash_deprecation(opt, section)
+[3.465s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[3.465s] !!
+[3.465s] 
+[3.466s]         ********************************************************************************
+[3.466s]         Usage of dash-separated 'install-scripts' will not be supported in future
+[3.467s]         versions. Please use the underscore name 'install_scripts' instead.
+[3.467s] 
+[3.467s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[3.467s]         or your builds will no longer be supported.
+[3.467s] 
+[3.468s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[3.468s]         ********************************************************************************
+[3.468s] 
+[3.469s] !!
+[3.469s]   opt = self.warn_dash_deprecation(opt, section)
+[3.710s] running egg_info
+[3.737s] writing ../../build/audio/audio.egg-info/PKG-INFO
+[3.739s] writing dependency_links to ../../build/audio/audio.egg-info/dependency_links.txt
+[3.740s] writing entry points to ../../build/audio/audio.egg-info/entry_points.txt
+[3.741s] writing requirements to ../../build/audio/audio.egg-info/requires.txt
+[3.741s] writing top-level names to ../../build/audio/audio.egg-info/top_level.txt
+[3.996s] reading manifest file '../../build/audio/audio.egg-info/SOURCES.txt'
+[3.998s] writing manifest file '../../build/audio/audio.egg-info/SOURCES.txt'
+[3.998s] running build
+[3.999s] running build_py
+[4.000s] running install
+[4.000s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.000s] !!
+[4.001s] 
+[4.001s]         ********************************************************************************
+[4.001s]         Please avoid running ``setup.py`` directly.
+[4.001s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[4.001s]         other standards-based tools.
+[4.001s] 
+[4.001s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.002s]         ********************************************************************************
+[4.002s] 
+[4.002s] !!
+[4.002s]   self.initialize_options()
+[4.008s] running install_lib
+[4.037s] running install_data
+[4.061s] running install_egg_info
+[4.088s] removing '/home/dev_ws/install/audio/lib/python3.8/site-packages/audio-0.0.0-py3.8.egg-info' (and everything under it)
+[4.090s] Copying ../../build/audio/audio.egg-info to /home/dev_ws/install/audio/lib/python3.8/site-packages/audio-0.0.0-py3.8.egg-info
+[4.092s] running install_scripts
+[4.212s] Installing send_audio script to /home/dev_ws/install/audio/lib/audio
+[4.214s] Installing speech_to_text script to /home/dev_ws/install/audio/lib/audio
+[4.214s] Installing text_to_speech script to /home/dev_ws/install/audio/lib/audio
+[4.215s] writing list of installed files to '/home/dev_ws/build/audio/install.log'
+[4.360s] Invoked command in '/home/dev_ws/src/audio' returned '0': PYTHONPATH=/home/dev_ws/install/audio/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/audio build --build-base /home/dev_ws/build/audio/build install --prefix /home/dev_ws/install/audio --record /home/dev_ws/build/audio/install.log --single-version-externally-managed

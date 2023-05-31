@@ -1,0 +1,29 @@
+[6.354s] Invoking command in '/home/dev_ws/src/audio': PYTHONPATH=/home/dev_ws/install/audio/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/audio build --build-base /home/dev_ws/build/audio/build install --prefix /home/dev_ws/install/audio --record /home/dev_ws/build/audio/install.log --single-version-externally-managed
+[7.343s] running egg_info
+[7.359s] writing ../../build/audio/audio.egg-info/PKG-INFO
+[7.363s] writing dependency_links to ../../build/audio/audio.egg-info/dependency_links.txt
+[7.363s] writing entry points to ../../build/audio/audio.egg-info/entry_points.txt
+[7.363s] writing requirements to ../../build/audio/audio.egg-info/requires.txt
+[7.364s] writing top-level names to ../../build/audio/audio.egg-info/top_level.txt
+[7.543s] reading manifest file '../../build/audio/audio.egg-info/SOURCES.txt'
+[7.543s] writing manifest file '../../build/audio/audio.egg-info/SOURCES.txt'
+[7.544s] running build
+[7.544s] running build_py
+[7.544s] copying audio/send_audio.py -> /home/dev_ws/build/audio/build/lib/audio
+[7.544s] copying audio/text_to_speech.py -> /home/dev_ws/build/audio/build/lib/audio
+[7.545s] running install
+[7.546s] running install_lib
+[7.555s] copying /home/dev_ws/build/audio/build/lib/audio/send_audio.py -> /home/dev_ws/install/audio/lib/python3.8/site-packages/audio
+[7.555s] copying /home/dev_ws/build/audio/build/lib/audio/text_to_speech.py -> /home/dev_ws/install/audio/lib/python3.8/site-packages/audio
+[7.555s] byte-compiling /home/dev_ws/install/audio/lib/python3.8/site-packages/audio/send_audio.py to send_audio.cpython-38.pyc
+[7.568s] byte-compiling /home/dev_ws/install/audio/lib/python3.8/site-packages/audio/text_to_speech.py to text_to_speech.cpython-38.pyc
+[7.576s] running install_data
+[7.578s] running install_egg_info
+[7.580s] removing '/home/dev_ws/install/audio/lib/python3.8/site-packages/audio-0.0.0-py3.8.egg-info' (and everything under it)
+[7.583s] Copying ../../build/audio/audio.egg-info to /home/dev_ws/install/audio/lib/python3.8/site-packages/audio-0.0.0-py3.8.egg-info
+[7.590s] running install_scripts
+[7.679s] Installing send_audio script to /home/dev_ws/install/audio/lib/audio
+[7.681s] Installing speech_to_text script to /home/dev_ws/install/audio/lib/audio
+[7.684s] Installing text_to_speech script to /home/dev_ws/install/audio/lib/audio
+[7.695s] writing list of installed files to '/home/dev_ws/build/audio/install.log'
+[7.910s] Invoked command in '/home/dev_ws/src/audio' returned '0': PYTHONPATH=/home/dev_ws/install/audio/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/audio build --build-base /home/dev_ws/build/audio/build install --prefix /home/dev_ws/install/audio --record /home/dev_ws/build/audio/install.log --single-version-externally-managed

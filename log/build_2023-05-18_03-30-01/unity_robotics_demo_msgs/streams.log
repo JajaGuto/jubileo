@@ -1,0 +1,25 @@
+[0.926s] Invoking command in '/home/jubileo/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jubileo/install/vision:/home/jubileo/install/utils:/home/jubileo/install/unity_robotics_demo:/home/jubileo/install/ros_tcp_endpoint:/home/jubileo/install/manipulation:/home/jubileo/install/face_controller:/home/jubileo/install/audio:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio /usr/bin/cmake --build /home/jubileo/build/unity_robotics_demo_msgs -- -j12 -l12
+[1.358s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.359s] -- Found ament_cmake_core: 0.9.9 (/opt/ros/foxy/share/ament_cmake_core/cmake)
+[1.359s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.359s] -- Configuring incomplete, errors occurred!
+[1.360s] See also "/home/dev_ws/build/unity_robotics_demo_msgs/CMakeFiles/CMakeOutput.log".
+[1.360s] CMake Error: The current CMakeCache.txt directory /home/jubileo/build/unity_robotics_demo_msgs/CMakeCache.txt is different than the directory /home/dev_ws/build/unity_robotics_demo_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[1.361s] Traceback (most recent call last):
+[1.361s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[1.362s]     from ament_package.templates import get_environment_hook_template_path
+[1.362s] ModuleNotFoundError: No module named 'ament_package'
+[1.362s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[1.362s]   execute_process(/usr/bin/python3
+[1.362s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[1.363s]   /home/dev_ws/build/unity_robotics_demo_msgs/ament_cmake_package_templates/templates.cmake)
+[1.363s]   returned error code 1
+[1.364s] Call Stack (most recent call first):
+[1.364s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.364s]   /opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:4 (find_package)
+[1.364s]   /opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+[1.364s]   CMakeLists.txt:5 (find_package)
+[1.364s] 
+[1.365s] 
+[1.369s] make: *** [Makefile:2428: cmake_check_build_system] Error 1
+[1.370s] Invoked command in '/home/jubileo/build/unity_robotics_demo_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jubileo/install/vision:/home/jubileo/install/utils:/home/jubileo/install/unity_robotics_demo:/home/jubileo/install/ros_tcp_endpoint:/home/jubileo/install/manipulation:/home/jubileo/install/face_controller:/home/jubileo/install/audio:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio /usr/bin/cmake --build /home/jubileo/build/unity_robotics_demo_msgs -- -j12 -l12

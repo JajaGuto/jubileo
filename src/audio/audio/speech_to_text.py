@@ -27,6 +27,7 @@ class AudioSubscriber(Node):
         self.follow_color_pub = self.create_publisher(String, 'follow_command', 10)
         self.facial_expression_pub = self.create_publisher(String, 'facial_expression_command', 10)
         self.tts_pub = self.create_publisher(String, 'text_to_speech', 10)
+        self.message_to_llm = self.create_publisher(String, 'human_message', 10)
         self.debug_pub = self.create_publisher(String, 'debug_topic', 10)
         
         self.following_color = False
@@ -40,9 +41,8 @@ class AudioSubscriber(Node):
         
     def listener_callback(self, audio):
         
-        if(len(audio.data)>2):
+        if(len(audio.data)>1):
             # self.get_logger().info(f'received: {audio.data}')
-            self.get_logger().info("to aqui")
 
             wf.write('audio.wav', self.fs, np.array(audio.data))
             os.remove('audio.mp3')
@@ -58,11 +58,15 @@ class AudioSubscriber(Node):
                 transcript += result.alternatives[0].transcript
         
             transcript = self.audio_utils.clean_stt_text(transcript)
+
             if (transcript != ''):
                 debug = String()
                 debug.data = 'wSpeech: '+transcript
                 self.debug_pub.publish(debug)
-            
+                self.message_to_llm.publish(transcript)
+                
+
+            """
             if 'look at me' in transcript:
                     msg = String()
                     msg.data = 'face'
@@ -122,9 +126,7 @@ class AudioSubscriber(Node):
                     self.debug_pub.publish(debug)
 
                     self.following_color = True
-
-        else:
-            print('ok')
+"""
 
     def get_audio_description(self, audioBytes):
         audio_file = speech.RecognitionAudio(content=audioBytes)

@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'speech_to_text = audio.speech_to_text:main',
+            'text_to_speech = audio.text_to_speech:main',
             'send_audio = audio.send_audio:main'
         ],
     },

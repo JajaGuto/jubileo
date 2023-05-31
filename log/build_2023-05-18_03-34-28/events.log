@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000273] (audio) JobQueued: {'identifier': 'audio', 'dependencies': OrderedDict()}
+[0.000339] (face_controller) JobQueued: {'identifier': 'face_controller', 'dependencies': OrderedDict()}
+[0.000396] (manipulation) JobQueued: {'identifier': 'manipulation', 'dependencies': OrderedDict()}
+[0.000447] (unity_robotics_demo) JobQueued: {'identifier': 'unity_robotics_demo', 'dependencies': OrderedDict()}
+[0.000498] (unity_robotics_demo_msgs) JobQueued: {'identifier': 'unity_robotics_demo_msgs', 'dependencies': OrderedDict()}
+[0.000527] (utils) JobQueued: {'identifier': 'utils', 'dependencies': OrderedDict()}
+[0.000576] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.001467] (audio) JobStarted: {'identifier': 'audio'}
+[0.013482] (face_controller) JobStarted: {'identifier': 'face_controller'}
+[0.024727] (manipulation) JobStarted: {'identifier': 'manipulation'}
+[0.034022] (unity_robotics_demo) JobStarted: {'identifier': 'unity_robotics_demo'}
+[0.042454] (unity_robotics_demo_msgs) JobStarted: {'identifier': 'unity_robotics_demo_msgs'}
+[0.049852] (utils) JobStarted: {'identifier': 'utils'}
+[0.061082] (vision) JobStarted: {'identifier': 'vision'}
+[0.098161] (-) TimerEvent: {}
+[0.198756] (-) TimerEvent: {}
+[0.299411] (-) TimerEvent: {}
+[0.399964] (-) TimerEvent: {}
+[0.500637] (-) TimerEvent: {}
+[0.601356] (-) TimerEvent: {}
+[0.701839] (-) TimerEvent: {}
+[0.802529] (-) TimerEvent: {}
+[0.903084] (-) TimerEvent: {}
+[0.934612] (unity_robotics_demo_msgs) JobProgress: {'identifier': 'unity_robotics_demo_msgs', 'progress': 'cmake'}
+[0.936673] (unity_robotics_demo_msgs) JobProgress: {'identifier': 'unity_robotics_demo_msgs', 'progress': 'build'}
+[0.936743] (unity_robotics_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dev_ws/build/unity_robotics_demo_msgs', '--', '-j12', '-l12'], 'cwd': '/home/dev_ws/build/unity_robotics_demo_msgs', 'env': OrderedDict([('HOSTNAME', '6d9bac903c10'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jubileo/install/unity_robotics_demo_msgs/lib:/home/dev_ws/install/unity_robotics_demo_msgs/lib'), ('HOME', '/root'), ('OLDPWD', '/home'), ('COLCON_PREFIX_PATH', '/home/dev_ws/install:/home/jubileo/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/dev_ws/install/manipulation:/home/jubileo/install/vision:/home/jubileo/install/utils:/home/jubileo/install/unity_robotics_demo_msgs:/home/jubileo/install/unity_robotics_demo:/home/jubileo/install/ros_tcp_endpoint:/home/jubileo/install/manipulation:/home/jubileo/install/face_controller:/home/jubileo/install/audio:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo_msgs:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio'), ('PWD', '/home/dev_ws/build/unity_robotics_demo_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/dev_ws/install/manipulation/lib/python3.8/site-packages:/home/jubileo/install/vision/lib/python3.8/site-packages:/home/jubileo/install/utils/lib/python3.8/site-packages:/home/jubileo/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/jubileo/install/unity_robotics_demo/lib/python3.8/site-packages:/home/jubileo/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/jubileo/install/manipulation/lib/python3.8/site-packages:/home/jubileo/install/face_controller/lib/python3.8/site-packages:/home/jubileo/install/audio/lib/python3.8/site-packages:/home/dev_ws/install/vision/lib/python3.8/site-packages:/home/dev_ws/install/utils/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo_msgs/lib/python3.8/site-packages:/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:/home/dev_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/dev_ws/install/face_controller/lib/python3.8/site-packages:/home/dev_ws/install/audio/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/dev_ws/install/unity_robotics_demo_msgs:/home/jubileo/install/unity_robotics_demo_msgs:/home/dev_ws/install/manipulation:/home/jubileo/install/vision:/home/jubileo/install/utils:/home/jubileo/install/unity_robotics_demo:/home/jubileo/install/ros_tcp_endpoint:/home/jubileo/install/manipulation:/home/jubileo/install/face_controller:/home/jubileo/install/audio:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio')]), 'shell': False}
+[1.003354] (-) TimerEvent: {}
+[1.103878] (-) TimerEvent: {}
+[1.204343] (-) TimerEvent: {}
+[1.304883] (-) TimerEvent: {}
+[1.361754] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.362310] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_core: 0.9.9 (/opt/ros/foxy/share/ament_cmake_core/cmake)\n'}
+[1.362502] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.362843] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.363928] (unity_robotics_demo_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.365565] (unity_robotics_demo_msgs) StdoutLine: {'line': b'See also "/home/dev_ws/build/unity_robotics_demo_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[1.365856] (unity_robotics_demo_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.367239] (unity_robotics_demo_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[1.367367] (unity_robotics_demo_msgs) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[1.367730] (unity_robotics_demo_msgs) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[1.367918] (unity_robotics_demo_msgs) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[1.368099] (unity_robotics_demo_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.368211] (unity_robotics_demo_msgs) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[1.368687] (unity_robotics_demo_msgs) StderrLine: {'line': b'  /home/dev_ws/build/unity_robotics_demo_msgs/ament_cmake_package_templates/templates.cmake)\n'}
+[1.368959] (unity_robotics_demo_msgs) StderrLine: {'line': b'  returned error code 1\n'}
+[1.369113] (unity_robotics_demo_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.369720] (unity_robotics_demo_msgs) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[1.369887] (unity_robotics_demo_msgs) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:4 (find_package)\n'}
+[1.370047] (unity_robotics_demo_msgs) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[1.370226] (unity_robotics_demo_msgs) StderrLine: {'line': b'  CMakeLists.txt:5 (find_package)\n'}
+[1.370405] (unity_robotics_demo_msgs) StderrLine: {'line': b'\n'}
+[1.370583] (unity_robotics_demo_msgs) StderrLine: {'line': b'\n'}
+[1.371336] (unity_robotics_demo_msgs) StderrLine: {'line': b'make: *** [Makefile:2428: cmake_check_build_system] Error 1\n'}
+[1.373412] (unity_robotics_demo_msgs) CommandEnded: {'returncode': 2}
+[1.405138] (-) TimerEvent: {}
+[1.506127] (-) TimerEvent: {}
+[1.606682] (-) TimerEvent: {}
+[1.621286] (unity_robotics_demo_msgs) JobEnded: {'identifier': 'unity_robotics_demo_msgs', 'rc': 2}
+[1.706934] (-) TimerEvent: {}
+[1.807547] (-) TimerEvent: {}
+[1.908215] (-) TimerEvent: {}
+[2.005720] (manipulation) JobEnded: {'identifier': 'manipulation', 'rc': 'SIGINT'}
+[2.008419] (-) TimerEvent: {}
+[2.014259] (utils) JobEnded: {'identifier': 'utils', 'rc': 'SIGINT'}
+[2.017623] (vision) JobEnded: {'identifier': 'vision', 'rc': 'SIGINT'}
+[2.024492] (face_controller) JobEnded: {'identifier': 'face_controller', 'rc': 'SIGINT'}
+[2.027030] (audio) JobEnded: {'identifier': 'audio', 'rc': 'SIGINT'}
+[2.031936] (unity_robotics_demo) JobEnded: {'identifier': 'unity_robotics_demo', 'rc': 'SIGINT'}
+[2.042737] (-) EventReactorShutdown: {}

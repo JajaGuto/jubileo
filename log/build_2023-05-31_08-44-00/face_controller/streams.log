@@ -1,0 +1,64 @@
+[5.420s] Invoking command in '/home/dev_ws/src/face_controller': PYTHONPATH=/home/dev_ws/install/face_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/face_controller build --build-base /home/dev_ws/build/face_controller/build install --prefix /home/dev_ws/install/face_controller --record /home/dev_ws/build/face_controller/install.log --single-version-externally-managed
+[5.977s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[5.977s] !!
+[5.978s] 
+[5.978s]         ********************************************************************************
+[5.978s]         Usage of dash-separated 'script-dir' will not be supported in future
+[5.978s]         versions. Please use the underscore name 'script_dir' instead.
+[5.978s] 
+[5.979s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[5.979s]         or your builds will no longer be supported.
+[5.979s] 
+[5.979s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[5.980s]         ********************************************************************************
+[5.980s] 
+[5.980s] !!
+[5.981s]   opt = self.warn_dash_deprecation(opt, section)
+[5.985s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[5.986s] !!
+[5.986s] 
+[5.986s]         ********************************************************************************
+[5.987s]         Usage of dash-separated 'install-scripts' will not be supported in future
+[5.987s]         versions. Please use the underscore name 'install_scripts' instead.
+[5.987s] 
+[5.988s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[5.988s]         or your builds will no longer be supported.
+[5.989s] 
+[5.990s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[5.991s]         ********************************************************************************
+[5.992s] 
+[5.992s] !!
+[5.992s]   opt = self.warn_dash_deprecation(opt, section)
+[6.298s] running egg_info
+[6.350s] writing ../../build/face_controller/face_controller.egg-info/PKG-INFO
+[6.350s] writing dependency_links to ../../build/face_controller/face_controller.egg-info/dependency_links.txt
+[6.350s] writing entry points to ../../build/face_controller/face_controller.egg-info/entry_points.txt
+[6.351s] writing requirements to ../../build/face_controller/face_controller.egg-info/requires.txt
+[6.351s] writing top-level names to ../../build/face_controller/face_controller.egg-info/top_level.txt
+[6.702s] reading manifest file '../../build/face_controller/face_controller.egg-info/SOURCES.txt'
+[6.705s] writing manifest file '../../build/face_controller/face_controller.egg-info/SOURCES.txt'
+[6.705s] running build
+[6.705s] running build_py
+[6.706s] running install
+[6.710s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[6.710s] !!
+[6.711s] 
+[6.711s]         ********************************************************************************
+[6.711s]         Please avoid running ``setup.py`` directly.
+[6.711s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[6.712s]         other standards-based tools.
+[6.712s] 
+[6.712s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[6.713s]         ********************************************************************************
+[6.713s] 
+[6.713s] !!
+[6.713s]   self.initialize_options()
+[6.732s] running install_lib
+[6.787s] running install_data
+[6.848s] running install_egg_info
+[6.897s] removing '/home/dev_ws/install/face_controller/lib/python3.8/site-packages/face_controller-0.0.0-py3.8.egg-info' (and everything under it)
+[6.900s] Copying ../../build/face_controller/face_controller.egg-info to /home/dev_ws/install/face_controller/lib/python3.8/site-packages/face_controller-0.0.0-py3.8.egg-info
+[6.904s] running install_scripts
+[7.123s] Installing facial_expression script to /home/dev_ws/install/face_controller/lib/face_controller
+[7.125s] writing list of installed files to '/home/dev_ws/build/face_controller/install.log'
+[7.484s] Invoked command in '/home/dev_ws/src/face_controller' returned '0': PYTHONPATH=/home/dev_ws/install/face_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/face_controller build --build-base /home/dev_ws/build/face_controller/build install --prefix /home/dev_ws/install/face_controller --record /home/dev_ws/build/face_controller/install.log --single-version-externally-managed

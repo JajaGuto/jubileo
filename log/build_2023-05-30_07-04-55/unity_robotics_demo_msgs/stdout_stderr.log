@@ -1,0 +1,61 @@
+[  1%] Built target unity_robotics_demo_msgs__cpp
+[ 12%] Built target unity_robotics_demo_msgs__rosidl_generator_c
+[ 34%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp
+[ 35%] Built target unity_robotics_demo_msgs__rosidl_typesupport_cpp
+[ 47%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[ 63%] Built target unity_robotics_demo_msgs__rosidl_typesupport_c
+[ 70%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_c
+[ 81%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c
+[ 81%] Built target unity_robotics_demo_msgs
+[ 82%] Built target unity_robotics_demo_msgs__py
+[ 83%] [32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/srv/_object_pose_service_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_audio_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_joints_to_target_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_rot_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_targets_reached_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_eyelids_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/srv/_position_service_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_unity_color_s.c.o[0m
+[01m[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/msg/_unity_color_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:128: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_unity_color_s.c.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/msg/_joints_to_target_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:89: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_joints_to_target_s.c.o] Error 1
+[01m[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_rot_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:115: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_rot_s.c.o] Error 1
+[01m[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_eyelids_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/srv/_object_pose_service_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/msg/_audio_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:102: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_eyelids_s.c.o] Error 1
+make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:154: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/srv/_object_pose_service_s.c.o] Error 1
+make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:76: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_audio_s.c.o] Error 1
+[01m[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/msg/_targets_reached_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:63: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_targets_reached_s.c.o] Error 1
+[01m[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/srv/_position_service_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:141: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/srv/_position_service_s.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:499: CMakeFiles/unity_robotics_demo_msgs__python.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

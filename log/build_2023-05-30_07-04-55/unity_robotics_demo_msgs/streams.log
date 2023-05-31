@@ -1,0 +1,63 @@
+[1.139s] Invoking command in '/home/dev_ws/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/manipulation:/home/dev_ws/install/llm:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio /usr/local/bin/cmake --build /home/dev_ws/build/unity_robotics_demo_msgs -- -j12 -l12
+[1.644s] [  1%] Built target unity_robotics_demo_msgs__cpp
+[1.645s] [ 12%] Built target unity_robotics_demo_msgs__rosidl_generator_c
+[1.645s] [ 34%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp
+[1.645s] [ 35%] Built target unity_robotics_demo_msgs__rosidl_typesupport_cpp
+[1.645s] [ 47%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[1.647s] [ 63%] Built target unity_robotics_demo_msgs__rosidl_typesupport_c
+[1.647s] [ 70%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_c
+[1.647s] [ 81%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c
+[1.647s] [ 81%] Built target unity_robotics_demo_msgs
+[1.649s] [ 82%] Built target unity_robotics_demo_msgs__py
+[1.649s] [ 83%] [32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/srv/_object_pose_service_s.c.o[0m
+[1.650s] [ 85%] [32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_audio_s.c.o[0m
+[1.650s] [ 86%] [32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_joints_to_target_s.c.o[0m
+[1.651s] [ 88%] [32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_rot_s.c.o[0m
+[1.651s] [ 88%] [32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_targets_reached_s.c.o[0m
+[1.651s] [ 89%] [32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_eyelids_s.c.o[0m
+[1.651s] [ 91%] [32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/srv/_position_service_s.c.o[0m
+[1.651s] [ 91%] [32mBuilding C object CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_unity_color_s.c.o[0m
+[1.651s] [01m[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/msg/_unity_color_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[1.652s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[1.653s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.653s] compilation terminated.
+[1.653s] make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:128: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_unity_color_s.c.o] Error 1
+[1.653s] make[2]: *** Waiting for unfinished jobs....
+[1.653s] [01m[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/msg/_joints_to_target_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[1.656s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[1.656s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.656s] compilation terminated.
+[1.657s] make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:89: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_joints_to_target_s.c.o] Error 1
+[1.657s] [01m[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_rot_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[1.657s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[1.658s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.658s] compilation terminated.
+[1.658s] make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:115: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_rot_s.c.o] Error 1
+[1.659s] [01m[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_eyelids_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[1.662s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[1.662s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.662s] compilation terminated.
+[1.663s] [01m[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/srv/_object_pose_service_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[1.663s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[1.663s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.663s] compilation terminated.
+[1.663s] [01m[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/msg/_audio_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[1.664s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[1.664s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.664s] compilation terminated.
+[1.664s] make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:102: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_pos_eyelids_s.c.o] Error 1
+[1.665s] make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:154: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/srv/_object_pose_service_s.c.o] Error 1
+[1.665s] make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:76: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_audio_s.c.o] Error 1
+[1.665s] [01m[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/msg/_targets_reached_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[1.665s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[1.665s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.665s] compilation terminated.
+[1.666s] make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:63: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/msg/_targets_reached_s.c.o] Error 1
+[1.666s] [01m[K/home/dev_ws/build/unity_robotics_demo_msgs/rosidl_generator_py/unity_robotics_demo_msgs/srv/_position_service_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[1.667s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[1.667s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.667s] compilation terminated.
+[1.667s] make[2]: *** [CMakeFiles/unity_robotics_demo_msgs__python.dir/build.make:141: CMakeFiles/unity_robotics_demo_msgs__python.dir/rosidl_generator_py/unity_robotics_demo_msgs/srv/_position_service_s.c.o] Error 1
+[1.668s] make[1]: *** [CMakeFiles/Makefile2:499: CMakeFiles/unity_robotics_demo_msgs__python.dir/all] Error 2
+[1.671s] make: *** [Makefile:141: all] Error 2
+[1.672s] Invoked command in '/home/dev_ws/build/unity_robotics_demo_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/dev_ws/install/vision:/home/dev_ws/install/utils:/home/dev_ws/install/unity_robotics_demo:/home/dev_ws/install/ros_tcp_endpoint:/home/dev_ws/install/manipulation:/home/dev_ws/install/llm:/home/dev_ws/install/face_controller:/home/dev_ws/install/audio /usr/local/bin/cmake --build /home/dev_ws/build/unity_robotics_demo_msgs -- -j12 -l12

@@ -2,7 +2,7 @@ import openai
 from numpy import random
 import os
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 class EnglishLearningGame:
     def __init__(self, game = 1):
