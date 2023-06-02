@@ -59,12 +59,17 @@ class AudioSubscriber(Node):
         
             transcript = self.audio_utils.clean_stt_text(transcript)
 
+            
+            print(f"Transcript type: {type(transcript)}, value: {transcript}")
+            
             if (transcript != ''):
                 debug = String()
                 debug.data = 'wSpeech: '+transcript
                 self.debug_pub.publish(debug)
-                self.message_to_llm.publish(transcript)
-            
+                human_msg = String()
+                human_msg.data = transcript
+                self.message_to_llm.publish(human_msg)
+                
 
             """
             if 'look at me' in transcript:

@@ -1,0 +1,64 @@
+[4.878s] Invoking command in '/home/dev_ws/src/manipulation': PYTHONPATH=/home/dev_ws/install/manipulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/manipulation build --build-base /home/dev_ws/build/manipulation/build install --prefix /home/dev_ws/install/manipulation --record /home/dev_ws/build/manipulation/install.log --single-version-externally-managed
+[5.259s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[5.260s] !!
+[5.260s] 
+[5.260s]         ********************************************************************************
+[5.260s]         Usage of dash-separated 'script-dir' will not be supported in future
+[5.261s]         versions. Please use the underscore name 'script_dir' instead.
+[5.262s] 
+[5.262s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[5.262s]         or your builds will no longer be supported.
+[5.263s] 
+[5.263s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[5.263s]         ********************************************************************************
+[5.263s] 
+[5.264s] !!
+[5.264s]   opt = self.warn_dash_deprecation(opt, section)
+[5.264s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[5.265s] !!
+[5.265s] 
+[5.265s]         ********************************************************************************
+[5.266s]         Usage of dash-separated 'install-scripts' will not be supported in future
+[5.266s]         versions. Please use the underscore name 'install_scripts' instead.
+[5.266s] 
+[5.267s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[5.267s]         or your builds will no longer be supported.
+[5.267s] 
+[5.268s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[5.268s]         ********************************************************************************
+[5.268s] 
+[5.269s] !!
+[5.269s]   opt = self.warn_dash_deprecation(opt, section)
+[5.535s] running egg_info
+[5.577s] writing ../../build/manipulation/manipulation.egg-info/PKG-INFO
+[5.577s] writing dependency_links to ../../build/manipulation/manipulation.egg-info/dependency_links.txt
+[5.578s] writing entry points to ../../build/manipulation/manipulation.egg-info/entry_points.txt
+[5.579s] writing requirements to ../../build/manipulation/manipulation.egg-info/requires.txt
+[5.579s] writing top-level names to ../../build/manipulation/manipulation.egg-info/top_level.txt
+[5.941s] reading manifest file '../../build/manipulation/manipulation.egg-info/SOURCES.txt'
+[5.941s] writing manifest file '../../build/manipulation/manipulation.egg-info/SOURCES.txt'
+[5.942s] running build
+[5.942s] running build_py
+[5.942s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[5.943s] !!
+[5.943s] 
+[5.943s]         ********************************************************************************
+[5.943s]         Please avoid running ``setup.py`` directly.
+[5.943s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[5.944s]         other standards-based tools.
+[5.944s] 
+[5.945s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[5.945s]         ********************************************************************************
+[5.945s] 
+[5.945s] !!
+[5.946s]   self.initialize_options()
+[5.950s] running install
+[5.959s] running install_lib
+[6.008s] running install_data
+[6.058s] running install_egg_info
+[6.111s] removing '/home/dev_ws/install/manipulation/lib/python3.8/site-packages/manipulation-0.0.0-py3.8.egg-info' (and everything under it)
+[6.113s] Copying ../../build/manipulation/manipulation.egg-info to /home/dev_ws/install/manipulation/lib/python3.8/site-packages/manipulation-0.0.0-py3.8.egg-info
+[6.116s] running install_scripts
+[6.331s] Installing grab_object script to /home/dev_ws/install/manipulation/lib/manipulation
+[6.333s] writing list of installed files to '/home/dev_ws/build/manipulation/install.log'
+[6.515s] Invoked command in '/home/dev_ws/src/manipulation' returned '0': PYTHONPATH=/home/dev_ws/install/manipulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/manipulation build --build-base /home/dev_ws/build/manipulation/build install --prefix /home/dev_ws/install/manipulation --record /home/dev_ws/build/manipulation/install.log --single-version-externally-managed

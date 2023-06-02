@@ -1,0 +1,64 @@
+[1.822s] Invoking command in '/home/dev_ws/src/utils': PYTHONPATH=/home/dev_ws/install/utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/utils build --build-base /home/dev_ws/build/utils/build install --prefix /home/dev_ws/install/utils --record /home/dev_ws/build/utils/install.log --single-version-externally-managed
+[2.063s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.063s] !!
+[2.063s] 
+[2.063s]         ********************************************************************************
+[2.063s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.064s]         versions. Please use the underscore name 'script_dir' instead.
+[2.064s] 
+[2.064s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[2.064s]         or your builds will no longer be supported.
+[2.064s] 
+[2.064s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.064s]         ********************************************************************************
+[2.064s] 
+[2.064s] !!
+[2.065s]   opt = self.warn_dash_deprecation(opt, section)
+[2.065s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.065s] !!
+[2.065s] 
+[2.065s]         ********************************************************************************
+[2.065s]         Usage of dash-separated 'install-scripts' will not be supported in future
+[2.065s]         versions. Please use the underscore name 'install_scripts' instead.
+[2.065s] 
+[2.065s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[2.066s]         or your builds will no longer be supported.
+[2.066s] 
+[2.066s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.066s]         ********************************************************************************
+[2.066s] 
+[2.066s] !!
+[2.066s]   opt = self.warn_dash_deprecation(opt, section)
+[2.230s] running egg_info
+[2.256s] writing ../../build/utils/utils.egg-info/PKG-INFO
+[2.265s] writing dependency_links to ../../build/utils/utils.egg-info/dependency_links.txt
+[2.266s] writing entry points to ../../build/utils/utils.egg-info/entry_points.txt
+[2.266s] writing requirements to ../../build/utils/utils.egg-info/requires.txt
+[2.267s] writing top-level names to ../../build/utils/utils.egg-info/top_level.txt
+[2.467s] reading manifest file '../../build/utils/utils.egg-info/SOURCES.txt'
+[2.469s] writing manifest file '../../build/utils/utils.egg-info/SOURCES.txt'
+[2.470s] running build
+[2.471s] running build_py
+[2.473s] running install
+[2.473s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.474s] !!
+[2.474s] 
+[2.474s]         ********************************************************************************
+[2.474s]         Please avoid running ``setup.py`` directly.
+[2.474s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[2.474s]         other standards-based tools.
+[2.474s] 
+[2.474s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.475s]         ********************************************************************************
+[2.475s] 
+[2.475s] !!
+[2.475s]   self.initialize_options()
+[2.486s] running install_lib
+[2.514s] running install_data
+[2.541s] running install_egg_info
+[2.569s] removing '/home/dev_ws/install/utils/lib/python3.8/site-packages/utils-0.0.0-py3.8.egg-info' (and everything under it)
+[2.569s] Copying ../../build/utils/utils.egg-info to /home/dev_ws/install/utils/lib/python3.8/site-packages/utils-0.0.0-py3.8.egg-info
+[2.572s] running install_scripts
+[2.679s] Installing utils script to /home/dev_ws/install/utils/lib/utils
+[2.681s] writing list of installed files to '/home/dev_ws/build/utils/install.log'
+[2.720s] Invoked command in '/home/dev_ws/src/utils' returned '0': PYTHONPATH=/home/dev_ws/install/utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/utils build --build-base /home/dev_ws/build/utils/build install --prefix /home/dev_ws/install/utils --record /home/dev_ws/build/utils/install.log --single-version-externally-managed

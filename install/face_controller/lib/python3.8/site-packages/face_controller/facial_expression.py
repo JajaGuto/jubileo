@@ -70,7 +70,7 @@ class FacialExpressions(Node):
         if not (expression in self.expression or self.expression in expression):
             self.expression = expression
             msg = JointsToTarget()
-            msg.joints = self.utils.get_face_joints();
+            msg.joints = self.utils.get_face_joints()
             
             debug = String()
             debug.data = 'iExpression of: '+expression

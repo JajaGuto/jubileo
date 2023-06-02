@@ -1,0 +1,67 @@
+[1.784s] Invoking command in '/home/dev_ws/src/vision': PYTHONPATH=/home/dev_ws/install/vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vision build --build-base /home/dev_ws/build/vision/build install --prefix /home/dev_ws/install/vision --record /home/dev_ws/build/vision/install.log --single-version-externally-managed
+[2.033s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.033s] !!
+[2.033s] 
+[2.033s]         ********************************************************************************
+[2.033s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.034s]         versions. Please use the underscore name 'script_dir' instead.
+[2.034s] 
+[2.034s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[2.034s]         or your builds will no longer be supported.
+[2.034s] 
+[2.034s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.034s]         ********************************************************************************
+[2.034s] 
+[2.035s] !!
+[2.035s]   opt = self.warn_dash_deprecation(opt, section)
+[2.036s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.036s] !!
+[2.037s] 
+[2.037s]         ********************************************************************************
+[2.037s]         Usage of dash-separated 'install-scripts' will not be supported in future
+[2.037s]         versions. Please use the underscore name 'install_scripts' instead.
+[2.037s] 
+[2.037s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[2.037s]         or your builds will no longer be supported.
+[2.038s] 
+[2.038s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.038s]         ********************************************************************************
+[2.038s] 
+[2.038s] !!
+[2.038s]   opt = self.warn_dash_deprecation(opt, section)
+[2.213s] running egg_info
+[2.240s] writing ../../build/vision/vision.egg-info/PKG-INFO
+[2.241s] writing dependency_links to ../../build/vision/vision.egg-info/dependency_links.txt
+[2.242s] writing entry points to ../../build/vision/vision.egg-info/entry_points.txt
+[2.242s] writing requirements to ../../build/vision/vision.egg-info/requires.txt
+[2.243s] writing top-level names to ../../build/vision/vision.egg-info/top_level.txt
+[2.450s] reading manifest file '../../build/vision/vision.egg-info/SOURCES.txt'
+[2.453s] writing manifest file '../../build/vision/vision.egg-info/SOURCES.txt'
+[2.453s] running build
+[2.454s] running build_py
+[2.457s] running install
+[2.457s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.457s] !!
+[2.457s] 
+[2.458s]         ********************************************************************************
+[2.458s]         Please avoid running ``setup.py`` directly.
+[2.458s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[2.458s]         other standards-based tools.
+[2.458s] 
+[2.458s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.458s]         ********************************************************************************
+[2.458s] 
+[2.458s] !!
+[2.459s]   self.initialize_options()
+[2.470s] running install_lib
+[2.499s] running install_data
+[2.528s] running install_egg_info
+[2.557s] removing '/home/dev_ws/install/vision/lib/python3.8/site-packages/vision-0.0.0-py3.8.egg-info' (and everything under it)
+[2.558s] Copying ../../build/vision/vision.egg-info to /home/dev_ws/install/vision/lib/python3.8/site-packages/vision-0.0.0-py3.8.egg-info
+[2.562s] running install_scripts
+[2.673s] Installing color_detector script to /home/dev_ws/install/vision/lib/vision
+[2.675s] Installing face_detector script to /home/dev_ws/install/vision/lib/vision
+[2.675s] Installing face_recognizer script to /home/dev_ws/install/vision/lib/vision
+[2.676s] Installing facial_expression_detector script to /home/dev_ws/install/vision/lib/vision
+[2.677s] writing list of installed files to '/home/dev_ws/build/vision/install.log'
+[2.724s] Invoked command in '/home/dev_ws/src/vision' returned '0': PYTHONPATH=/home/dev_ws/install/vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vision build --build-base /home/dev_ws/build/vision/build install --prefix /home/dev_ws/install/vision --record /home/dev_ws/build/vision/install.log --single-version-externally-managed

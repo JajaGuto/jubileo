@@ -23,6 +23,7 @@ setup(
             'color_detector = vision.color_detector:main',
             'facial_expression_detector = vision.facial_expression_detector:main',
             'face_recognizer = vision.face_recognizer:main',
+            'object_detector = vision.object_detector:main',
             'face_detector = vision.face_detector:main'
         ],
     },

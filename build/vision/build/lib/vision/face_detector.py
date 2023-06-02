@@ -55,20 +55,10 @@ class FaceDetector(Node):
         self.detect_facial_expression = False
         self.face_recognition = False
 
-
-
-
-
-
         # # to test
         # self.follow_face = True
         # self.detect_facial_expression = True
         # self.face_recognition = True
-
-
-
-
-
 
 
         
@@ -90,6 +80,7 @@ class FaceDetector(Node):
             
             msg = JointsToTarget()
             msg.joints = self.joints_utils.get_neck_joints()
+            #get position of face to make the robots neck move towards people face
             msg.targets = self.face_position(image)
                     
             self.joints_direction.publish(msg)
@@ -122,9 +113,9 @@ class FaceDetector(Node):
 
                 self.cropped_face.publish(self.bridge.cv2_to_imgmsg(face, "bgr8"))
 
-
-            dX = (x+w/2)-self.image_width/2
-            dY = (y+h/2)-self.image_height/2
+            #getting face position relative to the center of the image 
+            dX = (x+w)/2-self.image_width/2
+            dY = (y+h)/2-self.image_height/2
 
             print(dX)
             print(dY)

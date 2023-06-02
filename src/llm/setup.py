@@ -21,6 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             'guess_game = llm.guess_game:main',
+            'countries_game = llm.countries_game:main',
+            'closed_eyes_game = llm.closed_eyes_game:main',
+            'conversation = llm.conversation:main',
         ],
     },
 )

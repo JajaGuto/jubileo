@@ -1,0 +1,65 @@
+[1.018s] Invoking command in '/home/dev_ws/src/unity_robotics_demo': PYTHONPATH=/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/dev_ws/build/unity_robotics_demo/build install --prefix /home/dev_ws/install/unity_robotics_demo --record /home/dev_ws/build/unity_robotics_demo/install.log --single-version-externally-managed
+[1.295s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.295s] !!
+[1.295s] 
+[1.296s]         ********************************************************************************
+[1.296s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.296s]         versions. Please use the underscore name 'script_dir' instead.
+[1.296s] 
+[1.296s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[1.296s]         or your builds will no longer be supported.
+[1.296s] 
+[1.296s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.296s]         ********************************************************************************
+[1.296s] 
+[1.296s] !!
+[1.296s]   opt = self.warn_dash_deprecation(opt, section)
+[1.298s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.298s] !!
+[1.298s] 
+[1.299s]         ********************************************************************************
+[1.299s]         Usage of dash-separated 'install-scripts' will not be supported in future
+[1.299s]         versions. Please use the underscore name 'install_scripts' instead.
+[1.299s] 
+[1.299s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[1.299s]         or your builds will no longer be supported.
+[1.299s] 
+[1.299s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.299s]         ********************************************************************************
+[1.299s] 
+[1.299s] !!
+[1.299s]   opt = self.warn_dash_deprecation(opt, section)
+[1.407s] running egg_info
+[1.423s] writing ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/PKG-INFO
+[1.424s] writing dependency_links to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/dependency_links.txt
+[1.424s] writing entry points to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/entry_points.txt
+[1.424s] writing requirements to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/requires.txt
+[1.425s] writing top-level names to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/top_level.txt
+[1.588s] reading manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'
+[1.589s] writing manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'
+[1.589s] running build
+[1.589s] running build_py
+[1.590s] running install
+[1.590s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.590s] !!
+[1.591s] 
+[1.591s]         ********************************************************************************
+[1.591s]         Please avoid running ``setup.py`` directly.
+[1.591s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[1.591s]         other standards-based tools.
+[1.591s] 
+[1.591s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.591s]         ********************************************************************************
+[1.591s] 
+[1.591s] !!
+[1.591s]   self.initialize_options()
+[1.596s] running install_lib
+[1.613s] running install_data
+[1.634s] running install_egg_info
+[1.668s] removing '/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo-0.0.1-py3.8.egg-info' (and everything under it)
+[1.671s] Copying ../../build/unity_robotics_demo/unity_robotics_demo.egg-info to /home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages/unity_robotics_demo-0.0.1-py3.8.egg-info
+[1.671s] running install_scripts
+[1.742s] Installing color_publisher script to /home/dev_ws/install/unity_robotics_demo/lib/unity_robotics_demo
+[1.744s] Installing position_service script to /home/dev_ws/install/unity_robotics_demo/lib/unity_robotics_demo
+[1.744s] writing list of installed files to '/home/dev_ws/build/unity_robotics_demo/install.log'
+[1.779s] Invoked command in '/home/dev_ws/src/unity_robotics_demo' returned '0': PYTHONPATH=/home/dev_ws/install/unity_robotics_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/dev_ws/build/unity_robotics_demo/build install --prefix /home/dev_ws/install/unity_robotics_demo --record /home/dev_ws/build/unity_robotics_demo/install.log --single-version-externally-managed

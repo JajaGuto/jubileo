@@ -1,0 +1,65 @@
+/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        By 2023-Sep-26, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'install-scripts' will not be supported in future
+        versions. Please use the underscore name 'install_scripts' instead.
+
+        By 2023-Sep-26, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+running egg_info
+writing ../../build/face_controller/face_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/face_controller/face_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/face_controller/face_controller.egg-info/entry_points.txt
+writing requirements to ../../build/face_controller/face_controller.egg-info/requires.txt
+writing top-level names to ../../build/face_controller/face_controller.egg-info/top_level.txt
+reading manifest file '../../build/face_controller/face_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/face_controller/face_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying face_controller/facial_expression.py -> /home/dev_ws/build/face_controller/build/lib/face_controller
+running install
+/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer, pypa/build or
+        other standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running install_lib
+copying /home/dev_ws/build/face_controller/build/lib/face_controller/facial_expression.py -> /home/dev_ws/install/face_controller/lib/python3.8/site-packages/face_controller
+byte-compiling /home/dev_ws/install/face_controller/lib/python3.8/site-packages/face_controller/facial_expression.py to facial_expression.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/dev_ws/install/face_controller/lib/python3.8/site-packages/face_controller-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/face_controller/face_controller.egg-info to /home/dev_ws/install/face_controller/lib/python3.8/site-packages/face_controller-0.0.0-py3.8.egg-info
+running install_scripts
+Installing facial_expression script to /home/dev_ws/install/face_controller/lib/face_controller
+writing list of installed files to '/home/dev_ws/build/face_controller/install.log'
