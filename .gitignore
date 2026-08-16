@@ -1,0 +1,27 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+config.json
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ROS 2 / colcon generated directories
+build/
+install/
+log/
+
+# Local generated audio
+output*.mp3
+output*.wav
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
