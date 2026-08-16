@@ -6,7 +6,12 @@ from langchain.chains import ConversationChain
 from numpy import random
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    raise RuntimeError("OPENAI_API_KEY environment variable is not set.")
+
+os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+
 
 class Environment:
     def __init__(self):
@@ -56,7 +61,6 @@ class PlayerRobot:
         self.llm = ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo")
         self.conversation = ConversationChain(
             llm=self.llm,
-            #stop='\nHuman',
             verbose=True,
             memory=ConversationBufferMemory(return_messages=True)
         )
@@ -70,18 +74,14 @@ class PlayerRobot:
 
     def play_game(self, game):
         print(f"Now, let's play {game}.")
-        # Implement game logic here
 
     def game_one_feed_memory(self, env):
         self.conversation.memory.chat_memory.add_user_message("Hello!")
         self.conversation.memory.chat_memory.add_ai_message(self.introduce() +
                                                             " In this game there are many objects on the table."
-                                                            " I will think in one, and you will try to guess. The obje"
-                                                            "cts are " + env.get_all_obj_string() + ". Let's start?")
+                                                            " I will think in one, and you will try to guess. The objects are " + env.get_all_obj_string() + ". Let's start?")
         self.conversation.memory.chat_memory.add_user_message("Next turn!")
-        self.conversation.memory.chat_memory.add_ai_message(
-            "I chose an object! - I'm thinking in a blue 300ml cup made "
-            "of plastic, but I will keep it a secret.")
+        self.conversation.memory.chat_memory.add_ai_message("I chose an object! - I'm thinking in a blue 300ml cup made of plastic, but I will keep it a secret.")
         self.conversation.memory.chat_memory.add_user_message("Is the object black?")
         self.conversation.memory.chat_memory.add_ai_message("No, it is not black!")
         self.conversation.memory.chat_memory.add_user_message("Is it a food?")
@@ -92,23 +92,10 @@ class PlayerRobot:
         self.conversation.memory.chat_memory.add_ai_message("Yes!")
         self.conversation.memory.chat_memory.add_user_message("It is the blue cup?")
         self.conversation.memory.chat_memory.add_ai_message("Turn finished! Yes it is the blue cup!")
-        self.conversation.memory.chat_memory.add_user_message("Okay! One more time!")
-        self.conversation.memory.chat_memory.add_ai_message("I chose an object! - I'm thinking in a yellow big banana"
-                                                            ",but I will keep it a secret.")
-        self.conversation.memory.chat_memory.add_user_message("Is the object orange?")
-        self.conversation.memory.chat_memory.add_ai_message("No, it is not orange!")
-        self.conversation.memory.chat_memory.add_user_message("Is it a food?")
-        self.conversation.memory.chat_memory.add_ai_message("Yes, it is!")
-        self.conversation.memory.chat_memory.add_user_message("Is it a natural unprocessed food?")
-        self.conversation.memory.chat_memory.add_ai_message("Yes it is.")
-        self.conversation.memory.chat_memory.add_user_message("Is it an apple?")
-        self.conversation.memory.chat_memory.add_ai_message("Turn finished! No, it was the yellow big banana.")
 
     def game_two_feed_memory(self, env):
-        self.conversation.memory.chat_memory.add_user_message("Hello! In this game there are many objects on the table."
-                                                            " I will think in one, and you will try to guess. The obje"
-                                                            "cts are " + env.get_all_obj_string() + ".")
-        self.conversation.memory.chat_memory.add_ai_message(self.introduce() +". Let's start?")
+        self.conversation.memory.chat_memory.add_user_message("Hello! In this game there are many objects on the table. I will think in one, and you will try to guess. The objects are " + env.get_all_obj_string() + ".")
+        self.conversation.memory.chat_memory.add_ai_message(self.introduce() + ". Let's start?")
         self.conversation.memory.chat_memory.add_user_message("Yes")
         self.conversation.memory.chat_memory.add_ai_message("Is the object black")
         self.conversation.memory.chat_memory.add_user_message("No, it is not black!")
@@ -120,40 +107,22 @@ class PlayerRobot:
         self.conversation.memory.chat_memory.add_user_message("Yes!")
         self.conversation.memory.chat_memory.add_ai_message("It is the blue cup")
         self.conversation.memory.chat_memory.add_user_message("Turn finished! Yes it is the blue cup! You are good")
-        self.conversation.memory.chat_memory.add_ai_message("Okay! One more time")
-        self.conversation.memory.chat_memory.add_user_message("Okay! I chose the object")
-        self.conversation.memory.chat_memory.add_ai_message("Is the object orange?")
-        self.conversation.memory.chat_memory.add_user_message("No, it is not orange!")
-        self.conversation.memory.chat_memory.add_ai_message("Is it a food?")
-        self.conversation.memory.chat_memory.add_user_message("Yes, it is!")
-        self.conversation.memory.chat_memory.add_ai_message("Is it a natural unprocessed food?")
-        self.conversation.memory.chat_memory.add_user_message("Yes it is.")
-        self.conversation.memory.chat_memory.add_ai_message("Is it an apple?")
-        self.conversation.memory.chat_memory.add_user_message("Turn finished! No, it was the yellow big banana.")
-        self.conversation.memory.chat_memory.add_ai_message("Okay, do you want to play again?")
-        
+
 
 env = Environment()
-
 robot = PlayerRobot()
-
-# game 1 ta funcionando bem certinho
-# robot.game_one_feed_memory(env)
-
 robot.game_two_feed_memory(env)
 
 human_input = input()
-# aqui comecar respondendo algo cono - Yes, I want to play
 output = robot.conversation.predict(input=human_input)
 print(output)
 while True:
     human_input = input()
     if human_input == "end":
         break
-    else:
-        output = robot.conversation.predict(input=human_input)
-        print("output")
-        print(output)
+    output = robot.conversation.predict(input=human_input)
+    print("output")
+    print(output)
     print(robot.conversation.memory.load_memory_variables({}))
 
 print("cabo")
